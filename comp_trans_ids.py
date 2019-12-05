@@ -26,35 +26,40 @@ def get_trans_ids(curr_line_):
 
 
 
-def grep_trans_id(curr_ids_):
-	''' greps translation ids of interest'''
+def grep_trans_id(curr_ids_, funco_file_):
+	''' greps funco file for translation ids of interest'''
 	num_found = 0
 	num_not_found = 0
 
 	for tid in curr_ids_:
-		cmd = 'grep ' + tid + ' ' + funcotator_bench_path + ' -q' # q for quiet -- dont send anything to stdout
-		g = os.system(cmd)
-		if g:
-			num_found = num_found + 1
+		cmd = 'grep ' + tid + ' ' + funco_file_ + ' > grep_out.csv'
+		os.system(cmd)
+
+		if os.path.getsize('grep_out.csv') > 0:
+			num_found += 1
 		else:
-			num_not_found = num_not_found + 1
+			num_not_found += 1
 
 	ret_tup = [num_found, num_not_found]
 
 
 ''' main '''
-cerebra_bench_path = '/Users/lincoln.harris/code/cerebra/cerebra/tmp/out/cerebra_giab_all_benchmarking.csv'
-funcotator_bench_path = '/Users/lincoln.harris/code/funcotator/out/ash_father_benchmark.vcf'
-							 # start with just one 
-cb_df = pd.read_csv(cerebra_bench_path, index_col=0)
-#print('GiaB sample  num_match num_not_match')
-# driver loop 
-for df_line in cb_df.index:
-    curr_line = cb_df.loc[df_line]
-    curr_ids = get_trans_ids(curr_line)
-    curr_outcome = grep_trans_id(curr_ids)
+global funcotator_bench_f
 
-    print("%s:   %d %d" % df_line, curr_outcome[0], curr_outcome[1])
+cerebra_bench_f = 'cerebra_bench/cerebra_giab_all_benchmarking.csv'
+#funcotator_bench_f = 'funco_bench/ash_father_benchmark.vcf' # for testing purposes
+cwd = os.getcwd()				
+cb_df = pd.read_csv(cerebra_bench_f, index_col=0)
+
+# driver loop 
+for f in os.listdir('funco_bench'): 		# outer loop -- by funco outfile (.vcf)
+	f_path = cwd + '/funco_bench/' + f
+	for df_line in cb_df.index:			# inner loop -- by cerebra outfile line (.csv)
+	    curr_line = cb_df.loc[df_line]
+	    curr_ids = get_trans_ids(curr_line)
+	    curr_outcome = grep_trans_id(curr_ids, f_path)
+
+	    print("%s:   %d %d" % df_line, curr_outcome[0], curr_outcome[1])
 
 
 

@@ -102,3 +102,22 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+#//////////////////////////
+#//////////////////////////
+#//////////////////////////
+
+*.vcf
+*.csv
+cerebra_giab_all_benchmarking.csv
+grep_out.csv
+
+
+
+
+
+
+
+
+
