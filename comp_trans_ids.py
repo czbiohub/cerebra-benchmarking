@@ -40,6 +40,10 @@ def grep_trans_id(curr_ids_, funco_file_):
 		else:
 			num_not_found += 1
 
+
+	print(num_found)
+	print(num_not_found)
+	print(' ')
 	ret_tup = [num_found, num_not_found]
 
 
@@ -53,13 +57,14 @@ cb_df = pd.read_csv(cerebra_bench_f, index_col=0)
 
 # driver loop 
 for f in os.listdir('funco_bench'): 		# outer loop -- by funco outfile (.vcf)
+	curr_sample = f.strip('_benchmarking.vcf')
 	f_path = cwd + '/funco_bench/' + f
-	for df_line in cb_df.index:			# inner loop -- by cerebra outfile line (.csv)
-	    curr_line = cb_df.loc[df_line]
-	    curr_ids = get_trans_ids(curr_line)
-	    curr_outcome = grep_trans_id(curr_ids, f_path)
 
-	    print("%s:   %d %d" % df_line, curr_outcome[0], curr_outcome[1])
+	curr_line = cb_df.loc[curr_sample] # find the cerebra_bench line that corresponds to this funco outfile
+	curr_ids = get_trans_ids(curr_line)
+	curr_outcome = grep_trans_id(curr_ids, f_path)
+
+	print("%s:   %d %d" % curr_sample, curr_outcome[0], curr_outcome[1])
 
 
 
