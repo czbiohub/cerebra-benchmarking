@@ -61,12 +61,14 @@ for funco in os.listdir('funco_bench_sub'): # outer loop -- by funco outfile (.v
 	cerebra_line = cb_df.loc[curr_sample] # find the cerebra_bench line that corresponds to this funco outfile
 	cerebra_ids = get_trans_ids(cerebra_line)
 
-	n_inter = len(set(cerebra_ids).intersection(set(funco_ids)))
-	n_miss = len(set(funco_ids)) - n_inter
+	inter = len(set(cerebra_ids).intersection(set(funco_ids)))
+	funco_u = len(set(funco_ids)) - inter
+	cereb_u = len(set(cerebra_ids)) - inter
 
 	print(curr_sample)
-	print('n_inter: %d' % n_inter)
-	print('n_miss: %d' % n_miss)
+	print('inter: %d' % inter)
+	print('cerebra_unique: %d' % cereb_u)
+	print('funco_unique: %d' % funco_u)
 	print(' ')
 
 
