@@ -41,23 +41,23 @@ def grep_trans_id(curr_ids_, funco_file_):
 			num_not_found += 1
 
 
-	print(num_found)
-	print(num_not_found)
-	print(' ')
+		print(num_found)
+		print(num_not_found)
+		print(' ')
 	ret_tup = [num_found, num_not_found]
 
 
 ''' main '''
 global funcotator_bench_f
 
-cerebra_bench_f = 'cerebra_bench/cerebra_giab_all_benchmarking.csv'
+cerebra_bench_f = 'cerebra_bench/cerebra_giab_all_benchmarking_revised.csv'
 #funcotator_bench_f = 'funco_bench/ash_father_benchmark.vcf' # for testing purposes
 cwd = os.getcwd()				
 cb_df = pd.read_csv(cerebra_bench_f, index_col=0)
 
 # driver loop 
 for f in os.listdir('funco_bench'): 		# outer loop -- by funco outfile (.vcf)
-	curr_sample = f.strip('_benchmarking.vcf')
+	curr_sample = f.split('_')[0] + '_' + f.split('_')[1]
 	f_path = cwd + '/funco_bench/' + f
 
 	curr_line = cb_df.loc[curr_sample] # find the cerebra_bench line that corresponds to this funco outfile
