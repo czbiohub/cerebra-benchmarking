@@ -27,7 +27,7 @@ def get_trans_ids(curr_line_):
 
 
 def grep_trans_id(curr_ids_, funco_file_):
-	''' greps funco file for translation ids of interest'''
+	''' DONT NEED!! greps funco file for translation ids of interest'''
 	num_found = 0
 	num_not_found = 0
 
@@ -40,10 +40,6 @@ def grep_trans_id(curr_ids_, funco_file_):
 		else:
 			num_not_found += 1
 
-
-		print(num_found)
-		print(num_not_found)
-		print(' ')
 	ret_tup = [num_found, num_not_found]
 
 
@@ -51,20 +47,27 @@ def grep_trans_id(curr_ids_, funco_file_):
 global funcotator_bench_f
 
 cerebra_bench_f = 'cerebra_bench/cerebra_giab_all_benchmarking_revised.csv'
-#funcotator_bench_f = 'funco_bench/ash_father_benchmark.vcf' # for testing purposes
 cwd = os.getcwd()				
 cb_df = pd.read_csv(cerebra_bench_f, index_col=0)
 
 # driver loop 
-for f in os.listdir('funco_bench'): 		# outer loop -- by funco outfile (.vcf)
-	curr_sample = f.split('_')[0] + '_' + f.split('_')[1]
-	f_path = cwd + '/funco_bench/' + f
+for funco in os.listdir('funco_bench_sub'): # outer loop -- by funco outfile (.vcf)
+	curr_sample = funco.split('_')[0] + '_' + funco.split('_')[1]
+	funco_path = cwd + '/funco_bench_sub/' + funco
 
-	curr_line = cb_df.loc[curr_sample] # find the cerebra_bench line that corresponds to this funco outfile
-	curr_ids = get_trans_ids(curr_line)
-	curr_outcome = grep_trans_id(curr_ids, f_path)
+	funco_df = pd.read_csv(funco_path, header=None, names=['col'])
+	funco_ids = list(funco_df.col)
 
-	print("%s:   %d %d" % curr_sample, curr_outcome[0], curr_outcome[1])
+	cerebra_line = cb_df.loc[curr_sample] # find the cerebra_bench line that corresponds to this funco outfile
+	cerebra_ids = get_trans_ids(cerebra_line)
+
+	n_inter = len(set(cerebra_ids).intersection(set(funco_ids)))
+	n_miss = len(set(funco_ids)) - n_inter
+
+	print(curr_sample)
+	print('n_inter: %d' % n_inter)
+	print('n_miss: %d' % n_miss)
+	print(' ')
 
 
 
