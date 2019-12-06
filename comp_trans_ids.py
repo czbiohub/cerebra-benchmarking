@@ -25,28 +25,10 @@ def get_trans_ids(curr_line_):
 	return(trans_ids)
 
 
-
-def grep_trans_id(curr_ids_, funco_file_):
-	''' DONT NEED!! greps funco file for translation ids of interest'''
-	num_found = 0
-	num_not_found = 0
-
-	for tid in curr_ids_:
-		cmd = 'grep ' + tid + ' ' + funco_file_ + ' > grep_out.csv'
-		os.system(cmd)
-
-		if os.path.getsize('grep_out.csv') > 0:
-			num_found += 1
-		else:
-			num_not_found += 1
-
-	ret_tup = [num_found, num_not_found]
-
-
 ''' main '''
 global funcotator_bench_f
 
-cerebra_bench_f = 'cerebra_bench/cerebra_giab_all_benchmarking_revised.csv'
+cerebra_bench_f = 'cerebra_bench/cerebra_giab_all_gencode27_revised.csv'
 cwd = os.getcwd()				
 cb_df = pd.read_csv(cerebra_bench_f, index_col=0)
 
@@ -65,7 +47,15 @@ for funco in os.listdir('funco_bench_sub'): # outer loop -- by funco outfile (.v
 	funco_u = len(set(funco_ids)) - inter
 	cereb_u = len(set(cerebra_ids)) - inter
 
+	c_overlap_percent = inter / len(set(cerebra_ids))
+	f_overlap_percent = inter / len(set(funco_ids))
+
+	#print(inter)
+	#print(len(set(cerebra_ids)))
+
 	print(curr_sample)
+	print('cerebra overlap: %f' % c_overlap_percent)
+	print('funco overlap: %f' % f_overlap_percent)
 	print('inter: %d' % inter)
 	print('cerebra_unique: %d' % cereb_u)
 	print('funco_unique: %d' % funco_u)
