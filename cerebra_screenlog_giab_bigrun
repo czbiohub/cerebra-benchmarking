@@ -1,0 +1,45 @@
+]7;file://harris-mbp.local/Users/lincoln.harris/code/cerebra/cerebra[1m[3m%[23m[1m[0m                                                                                   k..rebra/cerebra\]7;file://harris-mbp.local/Users/lincoln.harris/code/cerebra/cerebra[0m[23m[24m[J[01;32m➜  [36mcerebra[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[3m%[23m[1m[0m                                                                                   k..rebra/cerebra\]7;file://harris-mbp.local/Users/lincoln.harris/code/cerebra/cerebra[0m[23m[24m[J[01;32m➜  [36mcerebra[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[3m%[23m[1m[0m                                                                                   k..rebra/cerebra\]7;file://harris-mbp.local/Users/lincoln.harris/code/cerebra/cerebra[0m[23m[24m[J[01;32m➜  [36mcerebra[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[3m%[23m[1m[0m                                                                                   k..rebra/cerebra\]7;file://harris-mbp.local/Users/lincoln.harris/code/cerebra/cerebra[0m[23m[24m[J[01;32m➜  [36mcerebra[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hccerebra find-aa-mutations --processes 4 --annotation tmp/ [Krref/gencode.v32.annotation.gtf --report_coverage 0 --genomefa tmp/ref/GRCh38.p13.ge [Knnome.fa --output tmp/out/bench_cerebra.csv /Users/lincoln.harris/Desktop/GiaB/vcf/* [K[K[?1l>[?2004l
+kcerebra\Beginning setup (this may take several minutes!)
+Loading genome annotation...
+Loading genome sequences...
+Building genome trees...
+^Z
+[1]  + 1177 suspended  cerebra find-aa-mutations --processes 4 --annotation  --report_coverage 0    
+[1m[3m%[23m[1m[0m                                                                                   k..rebra/cerebra\]7;file://harris-mbp.local/Users/lincoln.harris/code/cerebra/cerebra[0m[23m[24m[J[01;31m➜  [36mcerebra[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[3m%[23m[1m[0m                                                                                   k..rebra/cerebra\]7;file://harris-mbp.local/Users/lincoln.harris/code/cerebra/cerebra[0m[23m[24m[J[01;31m➜  [36mcerebra[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[3m%[23m[1m[0m                                                                                   k..rebra/cerebra\]7;file://harris-mbp.local/Users/lincoln.harris/code/cerebra/cerebra[0m[23m[24m[J[01;31m➜  [36mcerebra[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[3m%[23m[1m[0m                                                                                   k..rebra/cerebra\]7;file://harris-mbp.local/Users/lincoln.harris/code/cerebra/cerebra[0m[23m[24m[J[01;31m➜  [36mcerebra[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[3m%[23m[1m[0m                                                                                   k..rebra/cerebra\]7;file://harris-mbp.local/Users/lincoln.harris/code/cerebra/cerebra[0m[23m[24m[J[01;31m➜  [36mcerebra[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[3m%[23m[1m[0m                                                                                   k..rebra/cerebra\]7;file://harris-mbp.local/Users/lincoln.harris/code/cerebra/cerebra[0m[23m[24m[J[01;31m➜  [36mcerebra[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[3m%[23m[1m[0m                                                                                   k..rebra/cerebra\]7;file://harris-mbp.local/Users/lincoln.harris/code/cerebra/cerebra[0m[23m[24m[J[01;31m➜  [36mcerebra[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[3m%[23m[1m[0m                                                                                   k..rebra/cerebra\]7;file://harris-mbp.local/Users/lincoln.harris/code/cerebra/cerebra[0m[23m[24m[J[01;31m➜  [36mcerebra[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004httime cerebra find-aa-mutations --processes 4 --annotation [K  tmp/ref/gencode.v32.annotation.gtf --report_coverage 0 --genomefa tmp/ref/GRCh38.p [K113.genome.fa --output tmp/out/bench_cerebra.csv /Users/lincoln.harris/Desktop/GiaB/ [Kvvcf/*[?1l>[?2004l
+ktime\Beginning setup (this may take several minutes!)
+Loading genome annotation...
+Loading genome sequences...
+Building genome trees...
+Setup complete.
+Finding mutations...
+/usr/local/anaconda3/envs/cerebra/lib/python3.6/site-packages/vcfpy/parser.py:253: CannotConvertValue: CGnormal cannot be converted to Integer, keeping as string.
+  CannotConvertValue,
+/usr/local/anaconda3/envs/cerebra/lib/python3.6/site-packages/vcfpy/parser.py:253: CannotConvertValue: HiSeqPE100x cannot be converted to Integer, keeping as string.
+  CannotConvertValue,
+/usr/local/anaconda3/envs/cerebra/lib/python3.6/site-packages/vcfpy/parser.py:253: CannotConvertValue: HiSeqMatePair cannot be converted to Integer, keeping as string.
+  CannotConvertValue,
+  0%|                                                        | 0/7 [00:00<?, ?it/s]/usr/local/anaconda3/envs/cerebra/lib/python3.6/site-packages/vcfpy/parser.py:253: CannotConvertValue: 10XChromium cannot be converted to Integer, keeping as string.
+  CannotConvertValue,
+/usr/local/anaconda3/envs/cerebra/lib/python3.6/site-packages/vcfpy/parser.py:253: CannotConvertValue: CGnormal cannot be converted to Integer, keeping as string.
+  CannotConvertValue,
+/usr/local/anaconda3/envs/cerebra/lib/python3.6/site-packages/vcfpy/parser.py:253: CannotConvertValue: HiSeqMatePair cannot be converted to Integer, keeping as string.
+  CannotConvertValue,
+/usr/local/anaconda3/envs/cerebra/lib/python3.6/site-packages/vcfpy/parser.py:253: CannotConvertValue: HiSeqPE100x cannot be converted to Integer, keeping as string.
+  CannotConvertValue,
+/usr/local/anaconda3/envs/cerebra/lib/python3.6/site-packages/vcfpy/parser.py:253: CannotConvertValue: 10XChromium cannot be converted to Integer, keeping as string.
+  CannotConvertValue,
+ 14%|██████▎                                     | 1/7 [17:37<1:45:43, 1057.27s/it] 29%|████████████▌                               | 2/7 [17:37<1:27:13, 1046.70s/it] 43%|██████████████████▊                         | 3/7 [18:39<1:09:07, 1036.85s/it] 71%|████████████████████████████████▊             | 5/7 [32:41<34:21, 1030.69s/it]100%|██████████████████████████████████████████████| 7/7 [33:05<00:00, 1020.50s/it]100%|███████████████████████████████████████████████| 7/7 [33:05<00:00, 283.62s/it]
+Writing file...
+Done!
+cerebra find-aa-mutations --processes 4 --annotation  --report_coverage 0      6766.29s user 104.00s system 259% cpu 44:09.57 total
+[1m[3m%[23m[1m[0m                                                                                   k..rebra/cerebra\]7;file://harris-mbp.local/Users/lincoln.harris/code/cerebra/cerebra[0m[23m[24m[J[01;32m➜  [36mcerebra[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h

@@ -28,7 +28,7 @@ def get_trans_ids(curr_line_):
 ''' main '''
 global funcotator_bench_f
 
-cerebra_bench_f = 'cerebra_bench/cerebra_giab_all_gencode27_revised.csv'
+cerebra_bench_f = 'cerebra_bench/cerebra_giab_all_gencode27_patch_revised.csv'
 cwd = os.getcwd()				
 cb_df = pd.read_csv(cerebra_bench_f, index_col=0)
 
@@ -47,18 +47,15 @@ for funco in os.listdir('funco_bench_sub'): # outer loop -- by funco outfile (.v
 	funco_u = len(set(funco_ids)) - inter
 	cereb_u = len(set(cerebra_ids)) - inter
 
-	c_overlap_percent = inter / len(set(cerebra_ids))
-	f_overlap_percent = inter / len(set(funco_ids))
-
-	#print(inter)
-	#print(len(set(cerebra_ids)))
+	c_overlap = inter / len(set(cerebra_ids))
+	f_overlap = inter / len(set(funco_ids))
 
 	print(curr_sample)
-	print('cerebra overlap: %f' % c_overlap_percent)
-	print('funco overlap: %f' % f_overlap_percent)
-	print('inter: %d' % inter)
-	print('cerebra_unique: %d' % cereb_u)
-	print('funco_unique: %d' % funco_u)
+	print('cerebra overlap: %f' % c_overlap)
+	print('funco overlap: %f' % f_overlap)
+	#print('inter: %d' % inter)
+	#print('cerebra_unique: %d' % cereb_u)
+	#print('funco_unique: %d' % funco_u)
 	print(' ')
 
 

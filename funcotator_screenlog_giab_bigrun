@@ -1,0 +1,1686 @@
+]7;file://harris-mbp.local/Users/lincoln.harris/code[1m[3m%[23m[1m[0m                                                                                k~/code\]7;file://harris-mbp.local/Users/lincoln.harris/code[0m[23m[24m[J[01;32m➜  [36mcode[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[3m%[23m[1m[0m                                                                                k~/code\]7;file://harris-mbp.local/Users/lincoln.harris/code[0m[23m[24m[J[01;32m➜  [36mcode[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[3m%[23m[1m[0m                                                                                k~/code\]7;file://harris-mbp.local/Users/lincoln.harris/code[0m[23m[24m[J[01;32m➜  [36mcode[00m [K[?1h=[?2004hddocker run -it --entrypoint "/bin/bash" -v $PWD:/funcotator broadinstitu [Ktte/gatk [?1l>[?2004l
+kdocker\docker: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?.
+See 'docker run --help'.
+[1m[3m%[23m[1m[0m                                                                                k~/code\]7;file://harris-mbp.local/Users/lincoln.harris/code[0m[23m[24m[J[01;31m➜  [36mcode[00m [K[?1h=[?2004h[0m[23m[24m[J[01;31m➜  [36mcode[00m [0m[23m[24m[J[01;31m➜  [36mcode[00m [0m[23m[24m[J[01;31m➜  [36mcode[00m [0m[23m[24m[J[01;31m➜  [36mcode[00m [0m[23m[24m[J[01;31m➜  [36mcode[00m [0m[23m[24m[J[01;31m➜  [36mcode[00m [K[0m[23m[24m[J[01;31m➜  [36mcode[00m [0m[23m[24m[J[01;31m➜  [36mcode[00m [0m[23m[24m[J[01;31m➜  [36mcode[00m [K[0m[23m[24m[J[01;31m➜  [36mcode[00m [0m[23m[24m[J[01;31m➜  [36mcode[00m [0m[23m[24m[J[01;31m➜  [36mcode[00m [?1l>[?2004l
+[1m[3m%[23m[1m[0m                                                                                    k~/code\]7;file://harris-mbp.local/Users/lincoln.harris/code[0m[23m[24m[J[01;31m➜  [36mcode[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[3m%[23m[1m[0m                                                                                    k~/code\]7;file://harris-mbp.local/Users/lincoln.harris/code[0m[23m[24m[J[01;31m➜  [36mcode[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[3m%[23m[1m[0m                                                                                    k~/code\]7;file://harris-mbp.local/Users/lincoln.harris/code[0m[23m[24m[J[01;31m➜  [36mcode[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[3m%[23m[1m[0m                                                                                    k~/code\]7;file://harris-mbp.local/Users/lincoln.harris/code[0m[23m[24m[J[01;31m➜  [36mcode[00m [K[?1h=[?2004hdocker run -it --entrypoint "/bin/bash" -v $PWD:/funcotator broadinstitute/gatk[K[1C[?1l>[?2004l
+kdocker\]0;root@c703611a1c2e: /gatkroot@c703611a1c2e:/gatk# 
+]0;root@c703611a1c2e: /gatkroot@c703611a1c2e:/gatk# 
+]0;root@c703611a1c2e: /gatkroot@c703611a1c2e:/gatk# cd ..  
+]0;root@c703611a1c2e: ~root@c703611a1c2e:~# cd ..
+]0;root@c703611a1c2e: /root@c703611a1c2e:/# ls
+[0m[01;34mbin[0m   [01;34mdownloads[0m   [01;34mgatk[0m                 [01;34mjars[0m   [01;34mmedia[0m  [01;34mproc[0m  [01;34msbin[0m  [30;42mtmp[0m
+[01;34mboot[0m  [01;34metc[0m         [01;34mgatkCloneMountPoint[0m  [01;34mlib[0m    [01;34mmnt[0m    [01;34mroot[0m  [01;34msrv[0m   [01;34musr[0m
+[01;34mdev[0m   [01;34mfuncotator[0m  [01;34mhome[0m                 [01;34mlib64[0m  [01;34mopt[0m    [01;34mrun[0m   [01;34msys[0m   [01;34mvar[0m
+]0;root@c703611a1c2e: /root@c703611a1c2e:/# 
+]0;root@c703611a1c2e: /root@c703611a1c2e:/# cd funcotator/
+]0;root@c703611a1c2e: /funcotatorroot@c703611a1c2e:/funcotator# ls
+[0m[01;34mLAUD_analysis_poster[0m   [01;34mdarmanis_group_utils[0m          [01;34mmicroglia_clustering[0m
+[01;34mSTAR-Fus_scratch[0m       [01;34mercc_exploration[0m              [01;34mmotifScan[0m
+[01;34mTCR_assembly_pipeline[0m  [01;34mfuncotator[0m                    [01;34mmutationalPatterns[0m
+[01;34mWES-sandbox[0m            [01;34mfusionDetectionReflow-deprec[0m  [01;34mmutations-v-coverage_inkling[0m
+[01;34maguamenti[0m              [01;34mfusion_detection_pipeline[0m     [01;34mpotLuck[0m
+[01;34mawesome-single-cell[0m    [01;34mfusions_scratch[0m               [01;34mpyPackaging_scratch[0m
+[01;34mbatchPad[0m               [01;34mgatk_thresholds[0m               [01;34mscell_lung_adenocarcinoma[0m
+[01;34mboilerplate[0m            [01;34mget_barcodes_proj[0m             [01;34msclung_adeno[0m
+[01;34mcellxgene[0m              [01;34mhaplotypeCaller_gVCF_test[0m     [01;34msclung_variantCalling[0m
+[01;34mcerebra[0m                [01;34mimmune-repertoire[0m             screenlog.0
+[01;34mclinical-correlations[0m  [01;34mkh-tools[0m                      [01;34msingleCellClassifier[0m
+[01;34mconfig[0m                 [01;34mlatex-cv[0m                      [01;34mslitherIn[0m
+[01;34mct-transcriptomics[0m     [01;34mlatex-moderncv[0m                [01;34mutilities[0m
+[01;34mcupcakes[0m               [01;34mlolliplots[0m                    [01;34mvcftools[0m
+[01;34mcustom_star[0m            [01;34mlung_NE_pseudotime[0m
+]0;root@c703611a1c2e: /funcotatorroot@c703611a1c2e:/funcotator# 
+]0;root@c703611a1c2e: /funcotatorroot@c703611a1c2e:/funcotator# cd funcotator/
+]0;root@c703611a1c2e: /funcotator/funcotatorroot@c703611a1c2e:/funcotator/funcotator# clear
+[3J[H[2J]0;root@c703611a1c2e: /funcotator/funcotatorroot@c703611a1c2e:/funcotator/funcotator# 
+]0;root@c703611a1c2e: /funcotator/funcotatorroot@c703611a1c2e:/funcotator/funcotator# 
+]0;root@c703611a1c2e: /funcotator/funcotatorroot@c703611a1c2e:/funcotator/funcotator# ls
+README        [0m[01;34mfuncotator_dataSources.v1.4.20180829s[0m         [01;34mout[0m  screenlog.0
+[01;32mbatch_run.sh[0m  [01;31mfuncotator_dataSources.v1.4.20180829s.tar.gz[0m  [01;34mref[0m  [01;34mvcf[0m
+]0;root@c703611a1c2e: /funcotator/funcotatorroot@c703611a1c2e:/funcotator/funcotator# 
+]0;root@c703611a1c2e: /funcotator/funcotatorroot@c703611a1c2e:/funcotator/funcotator# 
+]0;root@c703611a1c2e: /funcotator/funcotatorroot@c703611a1c2e:/funcotator/funcotator# 
+]0;root@c703611a1c2e: /funcotator/funcotatorroot@c703611a1c2e:/funcotator/funcotator# 
+]0;root@c703611a1c2e: /funcotator/funcotatorroot@c703611a1c2e:/funcotator/funcotator# time ./batch_run.sh 
+Using GATK jar /gatk/gatk-package-4.0.10.1-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /gatk/gatk-package-4.0.10.1-local.jar Funcotator -R ref/hg38-plus.fa -V vcf/ash_father.vcf -O out/ash_father_benchmark.vcf --data-sources-path funcotator_dataSources.v1.4.20180829s --ref-version hg38 -output-file-format VCF
+01:20:11.983 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/gatk/gatk-package-4.0.10.1-local.jar!/com/intel/gkl/native/libgkl_compression.so
+01:20:13.806 INFO  Funcotator - ------------------------------------------------------------
+01:20:13.806 INFO  Funcotator - The Genome Analysis Toolkit (GATK) v4.0.10.1-0.0.4
+01:20:13.806 INFO  Funcotator - For support and documentation go to https://software.broadinstitute.org/gatk/
+01:20:13.807 INFO  Funcotator - Executing as root@c703611a1c2e on Linux v4.9.60-linuxkit-aufs amd64
+01:20:13.808 INFO  Funcotator - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_181-8u181-b13-0ubuntu0.16.04.1-b13
+01:20:13.808 INFO  Funcotator - Start Date/Time: December 5, 2019 1:20:11 AM UTC
+01:20:13.809 INFO  Funcotator - ------------------------------------------------------------
+01:20:13.810 INFO  Funcotator - ------------------------------------------------------------
+01:20:13.811 INFO  Funcotator - HTSJDK Version: 2.16.1
+01:20:13.812 INFO  Funcotator - Picard Version: 2.18.13
+01:20:13.812 INFO  Funcotator - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+01:20:13.813 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+01:20:13.813 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+01:20:13.814 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+01:20:13.814 INFO  Funcotator - Deflater: IntelDeflater
+01:20:13.815 INFO  Funcotator - Inflater: IntelInflater
+01:20:13.815 INFO  Funcotator - GCS max retries/reopens: 20
+01:20:13.816 INFO  Funcotator - Requester pays: disabled
+01:20:13.817 WARN  Funcotator - 
+
+[1m[31m   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+   Warning: Funcotator is a BETA tool and is not yet ready for use in production
+
+   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+
+
+01:20:13.818 INFO  Funcotator - Initializing engine
+01:20:14.241 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/vcf/ash_father.vcf
+01:20:14.280 INFO  Funcotator - Done initializing engine
+log4j:WARN No appenders could be found for logger (org.broadinstitute.hellbender.tools.funcotator.dataSources.DataSourceUtils).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+01:20:14.392 INFO  FeatureManager - Using codec GencodeGtfCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/gencode/hg38/gencode.v27.chr_patch_hapl_scaff.annotation.REORDERED.gtf
+01:20:27.279 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/lmm_known/hg38/LMM_Path_LP_VUS5-variants-6-12-18.sorted_liftover_b38.corrected.vcf
+01:20:27.331 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/lmm_known/hg38/LMM_Path_LP_VUS5-variants-6-12-18.sorted_liftover_b38.corrected.vcf
+01:20:27.354 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/clinvar/hg38/clinvar_20180429_hg38.vcf
+01:20:27.641 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/clinvar/hg38/clinvar_20180429_hg38.vcf
+01:20:27.779 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/exac/hg38/ExAC.r1.sites.liftover.b38.corrected.vcf.gz
+01:20:27.977 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/exac/hg38/ExAC.r1.sites.liftover.b38.corrected.vcf.gz
+01:20:28.039 INFO  Funcotator - Creating a VCF file for output: file:/funcotator/funcotator/out/ash_father_benchmark.vcf
+01:20:28.085 INFO  ProgressMeter - Starting traversal
+01:20:28.085 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+01:20:38.265 INFO  ProgressMeter -         chr1:7835512              0.2                  9000          53050.4
+01:20:48.557 INFO  ProgressMeter -        chr1:21320270              0.3                 26000          76205.4
+01:20:58.877 INFO  ProgressMeter -        chr1:35800022              0.5                 40000          77944.9
+01:21:09.409 INFO  ProgressMeter -        chr1:47372319              0.7                 53000          76954.7
+01:21:19.693 INFO  ProgressMeter -        chr1:66343661              0.9                 76000          88360.1
+01:21:29.823 INFO  ProgressMeter -        chr1:87678316              1.0                105000         102045.8
+01:21:40.401 INFO  ProgressMeter -       chr1:109184662              1.2                135000         112010.0
+01:21:50.490 INFO  ProgressMeter -       chr1:150774833              1.4                152000         110674.2
+01:22:00.856 INFO  ProgressMeter -       chr1:158326285              1.5                161000         104128.5
+01:22:11.063 INFO  ProgressMeter -       chr1:173193079              1.7                183000         106625.8
+01:22:21.164 INFO  ProgressMeter -       chr1:195706646              1.9                212000         112488.7
+01:22:31.166 INFO  ProgressMeter -       chr1:210994743              2.1                231000         112609.7
+01:22:41.368 INFO  ProgressMeter -       chr1:229196692              2.2                254000         114344.0
+01:22:51.684 INFO  ProgressMeter -       chr1:247602118              2.4                281000         117411.1
+01:23:02.036 INFO  ProgressMeter -        chr2:28915301              2.6                300000         116921.8
+01:23:12.377 INFO  ProgressMeter -        chr2:45009664              2.7                326000         119057.0
+01:23:22.498 INFO  ProgressMeter -        chr2:64391255              2.9                352000         121092.6
+01:23:32.692 INFO  ProgressMeter -        chr2:80627266              3.1                373000         121231.2
+01:23:42.932 INFO  ProgressMeter -       chr2:108939263              3.2                396000         121942.5
+01:23:53.054 INFO  ProgressMeter -       chr2:135516008              3.4                424000         124116.9
+01:24:03.323 INFO  ProgressMeter -       chr2:158273433              3.6                454000         126558.2
+01:24:13.477 INFO  ProgressMeter -       chr2:175832468              3.8                477000         126979.3
+01:24:23.757 INFO  ProgressMeter -       chr2:189510984              3.9                496000         126277.7
+01:24:33.797 INFO  ProgressMeter -       chr2:207790284              4.1                519000         126734.3
+01:24:44.040 INFO  ProgressMeter -       chr2:222951942              4.3                539000         126350.8
+01:24:54.215 INFO  ProgressMeter -       chr2:239898573              4.4                562000         126705.5
+01:25:04.698 INFO  ProgressMeter -        chr3:13062766              4.6                584000         126675.6
+01:25:15.018 INFO  ProgressMeter -        chr3:32210524              4.8                613000         128183.7
+01:25:25.434 INFO  ProgressMeter -        chr3:47760080              5.0                632000         127527.3
+01:25:35.885 INFO  ProgressMeter -        chr3:54314359              5.1                638000         124367.3
+01:25:46.062 INFO  ProgressMeter -        chr3:72119563              5.3                665000         125481.2
+01:25:56.160 INFO  ProgressMeter -       chr3:103102339              5.5                698000         127654.1
+01:26:06.250 INFO  ProgressMeter -       chr3:122299983              5.6                727000         128990.7
+01:26:16.458 INFO  ProgressMeter -       chr3:137639563              5.8                747000         128655.6
+01:26:26.486 INFO  ProgressMeter -       chr3:158478549              6.0                773000         129408.5
+01:26:36.591 INFO  ProgressMeter -       chr3:181792788              6.1                801000         130418.9
+01:26:47.680 INFO  ProgressMeter -       chr3:196667647              6.3                821000         129770.2
+01:26:57.746 INFO  ProgressMeter -        chr4:24361635              6.5                845000         130113.4
+01:27:07.982 INFO  ProgressMeter -        chr4:71193349              6.7                875000         131284.1
+01:27:19.055 INFO  ProgressMeter -        chr4:87035921              6.8                898000         131104.8
+01:27:29.115 INFO  ProgressMeter -       chr4:109759837              7.0                925000         131820.2
+01:27:39.171 INFO  ProgressMeter -       chr4:131230812              7.2                957000         133198.8
+01:27:49.173 INFO  ProgressMeter -       chr4:154994982              7.4                989000         134531.3
+01:27:59.271 INFO  ProgressMeter -       chr4:175533716              7.5               1023000         136041.8
+01:28:09.426 INFO  ProgressMeter -         chr5:2283069              7.7               1053000         136948.9
+01:28:19.517 INFO  ProgressMeter -        chr5:22690430              7.9               1087000         138344.7
+01:28:29.810 INFO  ProgressMeter -        chr5:44311337              8.0               1119000         139374.4
+01:28:40.074 INFO  ProgressMeter -        chr5:69499991              8.2               1147000         139881.7
+01:28:50.354 INFO  ProgressMeter -        chr5:91744117              8.4               1174000         140243.9
+01:29:00.653 INFO  ProgressMeter -       chr5:116459231              8.5               1204000         140937.9
+01:29:10.980 INFO  ProgressMeter -       chr5:138111309              8.7               1231000         141252.3
+01:29:21.168 INFO  ProgressMeter -       chr5:167406641              8.9               1249000         140578.7
+01:29:31.351 INFO  ProgressMeter -         chr6:1442178              9.1               1269000         140152.6
+01:29:41.642 INFO  ProgressMeter -        chr6:21236316              9.2               1300000         140907.2
+01:29:52.712 INFO  ProgressMeter -        chr6:32270489              9.4               1316000         139844.8
+01:30:03.840 INFO  ProgressMeter -        chr6:44363137              9.6               1332000         138809.3
+01:30:13.922 INFO  ProgressMeter -        chr6:66825060              9.8               1362000         139493.0
+01:30:24.059 INFO  ProgressMeter -        chr6:88196720              9.9               1393000         140241.5
+01:30:34.222 INFO  ProgressMeter -       chr6:110862019             10.1               1423000         140859.5
+01:30:44.570 INFO  ProgressMeter -       chr6:133228000             10.3               1451000         141220.2
+01:30:54.776 INFO  ProgressMeter -       chr6:153305518             10.4               1475000         141218.1
+01:31:05.313 INFO  ProgressMeter -         chr7:1284837             10.6               1501000         141331.1
+01:31:15.415 INFO  ProgressMeter -        chr7:15863141             10.8               1526000         141442.8
+01:31:25.687 INFO  ProgressMeter -        chr7:35362102             11.0               1552000         141605.6
+01:31:35.875 INFO  ProgressMeter -        chr7:51825198             11.1               1576000         141601.6
+01:31:46.136 INFO  ProgressMeter -        chr7:82378938             11.3               1604000         141936.4
+01:31:59.076 INFO  ProgressMeter -       chr7:101377578             11.5               1624000         141015.1
+01:32:09.285 INFO  ProgressMeter -       chr7:120915858             11.7               1646000         140844.5
+01:32:19.416 INFO  ProgressMeter -       chr7:139236219             11.9               1671000         140947.2
+01:32:29.855 INFO  ProgressMeter -       chr7:152697292             12.0               1687000         140238.8
+01:32:39.856 INFO  ProgressMeter -        chr8:18027462             12.2               1712000         140372.2
+01:32:50.045 INFO  ProgressMeter -        chr8:31357152             12.4               1733000         140142.7
+01:33:00.290 INFO  ProgressMeter -        chr8:52776353             12.5               1757000         140148.2
+01:33:10.457 INFO  ProgressMeter -        chr8:74223456             12.7               1785000         140482.8
+01:33:13.575 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000523976.1 for variant: chr8:79766258-79766265(AGGCATGT* -> A): Cannot yet handle indels starting outside an exon and ending within an exon.
+01:33:20.523 INFO  ProgressMeter -        chr8:94834362             12.9               1810000         140594.0
+01:33:30.645 INFO  ProgressMeter -       chr8:114468277             13.0               1835000         140692.3
+01:33:40.776 INFO  ProgressMeter -       chr8:136374141             13.2               1865000         141164.9
+01:33:51.967 INFO  ProgressMeter -          chr9:516998             13.4               1878000         140170.0
+01:34:02.038 INFO  ProgressMeter -        chr9:15258766             13.6               1907000         140573.4
+01:34:12.224 INFO  ProgressMeter -        chr9:34545479             13.7               1939000         141165.7
+01:34:22.346 INFO  ProgressMeter -        chr9:79892553             13.9               1960000         140963.2
+01:34:32.645 INFO  ProgressMeter -       chr9:100106193             14.1               1984000         140949.3
+01:34:42.929 INFO  ProgressMeter -       chr9:117757099             14.2               2010000         141078.5
+01:34:53.402 INFO  ProgressMeter -       chr9:130428936             14.4               2026000         140480.5
+01:35:04.144 INFO  ProgressMeter -        chr10:1020310             14.6               2037000         139511.3
+01:35:14.197 INFO  ProgressMeter -       chr10:17655052             14.8               2065000         139824.5
+01:35:24.488 INFO  ProgressMeter -       chr10:35046252             14.9               2091000         139959.5
+01:35:34.695 INFO  ProgressMeter -       chr10:56018036             15.1               2114000         139906.0
+01:35:44.869 INFO  ProgressMeter -       chr10:72931277             15.3               2141000         140120.4
+01:35:55.269 INFO  ProgressMeter -       chr10:89245956             15.5               2161000         139842.9
+01:36:05.822 INFO  ProgressMeter -      chr10:103559857             15.6               2179000         139420.9
+01:36:16.220 INFO  ProgressMeter -      chr10:122575098             15.8               2207000         139663.8
+01:36:26.405 INFO  ProgressMeter -         chr11:855935             16.0               2225000         139306.4
+01:36:36.509 INFO  ProgressMeter -        chr11:8172193             16.1               2239000         138720.4
+01:36:46.681 INFO  ProgressMeter -       chr11:20741821             16.3               2260000         138566.0
+01:36:56.687 INFO  ProgressMeter -       chr11:40165523             16.5               2292000         139105.7
+01:37:06.877 INFO  ProgressMeter -       chr11:59238578             16.6               2310000         138767.9
+01:37:17.557 INFO  ProgressMeter -       chr11:66046993             16.8               2318000         137775.1
+01:37:28.225 INFO  ProgressMeter -       chr11:75410713             17.0               2327000         136863.7
+01:37:38.492 INFO  ProgressMeter -       chr11:93767927             17.2               2352000         136955.7
+01:37:48.527 INFO  ProgressMeter -      chr11:111112796             17.3               2379000         137192.0
+01:37:58.824 INFO  ProgressMeter -      chr11:123322054             17.5               2396000         136818.1
+01:38:09.409 INFO  ProgressMeter -        chr12:8464475             17.7               2413000         136414.6
+01:38:19.529 INFO  ProgressMeter -       chr12:24786849             17.9               2439000         136582.2
+01:38:29.700 INFO  ProgressMeter -       chr12:47313726             18.0               2467000         136851.2
+01:38:39.779 INFO  ProgressMeter -       chr12:55602905             18.2               2479000         136247.1
+01:38:49.920 INFO  ProgressMeter -       chr12:68944717             18.4               2494000         135810.2
+01:38:59.926 INFO  ProgressMeter -       chr12:90717355             18.5               2523000         136152.7
+01:39:09.988 INFO  ProgressMeter -      chr12:108038475             18.7               2547000         136215.1
+01:39:20.010 INFO  ProgressMeter -      chr12:121592664             18.9               2564000         135910.2
+01:39:30.235 INFO  ProgressMeter -       chr13:21123987             19.0               2585000         135796.6
+01:39:40.355 INFO  ProgressMeter -       chr13:37160457             19.2               2610000         135905.8
+01:39:50.456 INFO  ProgressMeter -       chr13:58745368             19.4               2639000         136221.7
+01:40:00.523 INFO  ProgressMeter -       chr13:84772065             19.5               2677000         136996.8
+01:40:10.865 INFO  ProgressMeter -      chr13:109258678             19.7               2713000         137625.0
+01:40:21.152 INFO  ProgressMeter -       chr14:24172629             19.9               2727000         137142.5
+01:40:31.352 INFO  ProgressMeter -       chr14:42760926             20.1               2752000         137226.5
+01:40:41.760 INFO  ProgressMeter -       chr14:61182331             20.2               2781000         137483.4
+01:40:51.763 INFO  ProgressMeter -       chr14:74642143             20.4               2799000         137242.2
+01:41:01.944 INFO  ProgressMeter -       chr14:92274232             20.6               2825000         137374.0
+01:41:03.456 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000618863.1 for variant: chr14:94115784-94115793(TGGCCATGGC* -> T): Cannot yet handle indels starting outside an exon and ending within an exon.
+01:41:12.515 INFO  ProgressMeter -      chr14:106706850             20.7               2845000         137171.5
+01:41:22.979 INFO  ProgressMeter -       chr15:41268680             20.9               2869000         137175.0
+01:41:33.035 INFO  ProgressMeter -       chr15:52941259             21.1               2882000         136701.2
+01:41:43.180 INFO  ProgressMeter -       chr15:66571491             21.3               2905000         136695.8
+01:41:53.452 INFO  ProgressMeter -       chr15:80318819             21.4               2922000         136396.9
+01:42:03.783 INFO  ProgressMeter -       chr15:96836756             21.6               2945000         136374.5
+01:42:14.067 INFO  ProgressMeter -       chr16:20294992             21.8               2953000         135668.4
+01:42:24.644 INFO  ProgressMeter -       chr16:58205663             21.9               2968000         135261.8
+01:42:35.656 INFO  ProgressMeter -       chr16:71314512             22.1               2983000         134817.7
+01:42:45.713 INFO  ProgressMeter -       chr16:83079391             22.3               3006000         134835.8
+01:42:55.882 INFO  ProgressMeter -        chr17:1397541             22.5               3020000         134441.7
+01:43:05.941 INFO  ProgressMeter -        chr17:7646848             22.6               3029000         133843.5
+01:43:17.017 INFO  ProgressMeter -       chr17:19778325             22.8               3045000         133461.8
+01:43:27.723 INFO  ProgressMeter -       chr17:38734696             23.0               3058000         132991.5
+01:43:37.877 INFO  ProgressMeter -       chr17:46162741             23.2               3068000         132451.6
+01:43:48.597 INFO  ProgressMeter -       chr17:61272832             23.3               3084000         132123.2
+01:44:00.836 INFO  ProgressMeter -       chr17:76264069             23.5               3103000         131785.5
+01:44:11.287 INFO  ProgressMeter -       chr18:21499892             23.7               3113000         131239.5
+01:44:21.433 INFO  ProgressMeter -       chr18:43617240             23.9               3141000         131482.5
+01:44:31.532 INFO  ProgressMeter -       chr18:61160001             24.1               3166000         131601.7
+01:44:42.535 INFO  ProgressMeter -         chr19:939403             24.2               3198000         131926.2
+01:44:53.225 INFO  ProgressMeter -        chr19:8013376             24.4               3208000         131373.2
+01:45:04.001 INFO  ProgressMeter -       chr19:14631936             24.6               3215000         130698.6
+01:45:14.317 INFO  ProgressMeter -       chr19:30153879             24.8               3231000         130437.3
+01:45:24.873 INFO  ProgressMeter -       chr19:40428074             24.9               3244000         130038.5
+01:45:27.979 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000588797.5 for variant: chr19:43847014-43847020(GGGAGAT* -> G): Cannot yet handle indels starting outside an exon and ending within an exon.
+01:45:35.254 INFO  ProgressMeter -       chr19:49259193             25.1               3254000         129541.0
+01:45:46.351 INFO  ProgressMeter -       chr19:55574290             25.3               3265000         129028.9
+01:45:56.630 INFO  ProgressMeter -        chr20:8182819             25.5               3283000         128867.7
+01:46:06.938 INFO  ProgressMeter -       chr20:33118281             25.6               3309000         129018.3
+01:46:17.764 INFO  ProgressMeter -       chr20:46750470             25.8               3324000         128697.7
+01:46:28.498 INFO  ProgressMeter -       chr20:63754579             26.0               3347000         128696.8
+01:46:38.972 INFO  ProgressMeter -       chr21:34040199             26.2               3378000         129022.7
+01:46:49.105 INFO  ProgressMeter -       chr21:45783459             26.4               3396000         128878.9
+01:46:59.332 INFO  ProgressMeter -       chr22:30319213             26.5               3409000         128540.8
+01:47:09.785 INFO  ProgressMeter -       chr22:42713737             26.7               3424000         128263.8
+01:47:15.471 INFO  Funcotator - No variants filtered by: AllowAllVariantsVariantFilter
+01:47:15.472 INFO  ProgressMeter -       chr22:49872982             26.8               3437117         128299.6
+01:47:15.472 INFO  ProgressMeter - Traversal complete. Processed 3437117 total variants in 26.8 minutes.
+01:47:16.016 INFO  Funcotator - Shutting down engine
+[December 5, 2019 1:47:16 AM UTC] org.broadinstitute.hellbender.tools.funcotator.Funcotator done. Elapsed time: 27.07 minutes.
+Runtime.totalMemory()=2074083328
+Tool returned:
+true
+Using GATK jar /gatk/gatk-package-4.0.10.1-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /gatk/gatk-package-4.0.10.1-local.jar Funcotator -R ref/hg38-plus.fa -V vcf/ash_mother.vcf -O out/ash_mother_benchmark.vcf --data-sources-path funcotator_dataSources.v1.4.20180829s --ref-version hg38 -output-file-format VCF
+01:47:24.603 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/gatk/gatk-package-4.0.10.1-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Dec 05, 2019 1:47:25 AM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+WARNING: Failed to detect whether we are running on Google Compute Engine.
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at shaded.cloud_nio.com.google.api.client.http.javanet.NetHttpRequest.execute(NetHttpRequest.java:104)
+	at shaded.cloud_nio.com.google.api.client.http.HttpRequest.execute(HttpRequest.java:981)
+	at shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials.runningOnComputeEngine(ComputeEngineCredentials.java:210)
+	at shaded.cloud_nio.com.google.auth.oauth2.DefaultCredentialsProvider.tryGetComputeCredentials(DefaultCredentialsProvider.java:290)
+	at shaded.cloud_nio.com.google.auth.oauth2.DefaultCredentialsProvider.getDefaultCredentialsUnsynchronized(DefaultCredentialsProvider.java:207)
+	at shaded.cloud_nio.com.google.auth.oauth2.DefaultCredentialsProvider.getDefaultCredentials(DefaultCredentialsProvider.java:124)
+	at shaded.cloud_nio.com.google.auth.oauth2.GoogleCredentials.getApplicationDefault(GoogleCredentials.java:127)
+	at shaded.cloud_nio.com.google.auth.oauth2.GoogleCredentials.getApplicationDefault(GoogleCredentials.java:100)
+	at com.google.cloud.ServiceOptions.defaultCredentials(ServiceOptions.java:304)
+	at com.google.cloud.ServiceOptions.<init>(ServiceOptions.java:278)
+	at com.google.cloud.storage.StorageOptions.<init>(StorageOptions.java:83)
+	at com.google.cloud.storage.StorageOptions.<init>(StorageOptions.java:31)
+	at com.google.cloud.storage.StorageOptions$Builder.build(StorageOptions.java:78)
+	at org.broadinstitute.hellbender.utils.gcs.BucketUtils.setGlobalNIODefaultOptions(BucketUtils.java:360)
+	at org.broadinstitute.hellbender.cmdline.CommandLineProgram.instanceMainPostParseArgs(CommandLineProgram.java:183)
+	at org.broadinstitute.hellbender.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:211)
+	at org.broadinstitute.hellbender.Main.runCommandLineProgram(Main.java:160)
+	at org.broadinstitute.hellbender.Main.mainEntry(Main.java:203)
+	at org.broadinstitute.hellbender.Main.main(Main.java:289)
+
+01:47:25.992 INFO  Funcotator - ------------------------------------------------------------
+01:47:25.994 INFO  Funcotator - The Genome Analysis Toolkit (GATK) v4.0.10.1-0.0.4
+01:47:25.994 INFO  Funcotator - For support and documentation go to https://software.broadinstitute.org/gatk/
+01:47:25.995 INFO  Funcotator - Executing as root@c703611a1c2e on Linux v4.9.60-linuxkit-aufs amd64
+01:47:25.995 INFO  Funcotator - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_181-8u181-b13-0ubuntu0.16.04.1-b13
+01:47:25.997 INFO  Funcotator - Start Date/Time: December 5, 2019 1:47:24 AM UTC
+01:47:25.998 INFO  Funcotator - ------------------------------------------------------------
+01:47:26.000 INFO  Funcotator - ------------------------------------------------------------
+01:47:26.001 INFO  Funcotator - HTSJDK Version: 2.16.1
+01:47:26.001 INFO  Funcotator - Picard Version: 2.18.13
+01:47:26.001 INFO  Funcotator - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+01:47:26.001 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+01:47:26.002 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+01:47:26.002 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+01:47:26.002 INFO  Funcotator - Deflater: IntelDeflater
+01:47:26.002 INFO  Funcotator - Inflater: IntelInflater
+01:47:26.003 INFO  Funcotator - GCS max retries/reopens: 20
+01:47:26.003 INFO  Funcotator - Requester pays: disabled
+01:47:26.004 WARN  Funcotator - 
+
+[1m[31m   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+   Warning: Funcotator is a BETA tool and is not yet ready for use in production
+
+   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+
+
+01:47:26.004 INFO  Funcotator - Initializing engine
+01:47:39.032 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/vcf/ash_mother.vcf
+01:47:39.104 INFO  Funcotator - Done initializing engine
+log4j:WARN No appenders could be found for logger (org.broadinstitute.hellbender.tools.funcotator.dataSources.DataSourceUtils).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+01:47:50.842 INFO  FeatureManager - Using codec GencodeGtfCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/gencode/hg38/gencode.v27.chr_patch_hapl_scaff.annotation.REORDERED.gtf
+01:48:05.755 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/lmm_known/hg38/LMM_Path_LP_VUS5-variants-6-12-18.sorted_liftover_b38.corrected.vcf
+01:48:05.834 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/lmm_known/hg38/LMM_Path_LP_VUS5-variants-6-12-18.sorted_liftover_b38.corrected.vcf
+01:48:06.797 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/clinvar/hg38/clinvar_20180429_hg38.vcf
+01:48:07.143 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/clinvar/hg38/clinvar_20180429_hg38.vcf
+01:48:20.205 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/exac/hg38/ExAC.r1.sites.liftover.b38.corrected.vcf.gz
+01:48:20.533 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/exac/hg38/ExAC.r1.sites.liftover.b38.corrected.vcf.gz
+01:48:20.642 INFO  Funcotator - Creating a VCF file for output: file:/funcotator/funcotator/out/ash_mother_benchmark.vcf
+01:48:20.699 INFO  ProgressMeter - Starting traversal
+01:48:20.700 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+01:48:31.419 INFO  ProgressMeter -         chr1:6687278              0.2                  8000          44784.5
+01:48:41.632 INFO  ProgressMeter -        chr1:19746218              0.3                 25000          71660.6
+01:48:51.864 INFO  ProgressMeter -        chr1:33229405              0.5                 39000          75086.6
+01:49:02.712 INFO  ProgressMeter -        chr1:46601073              0.7                 54000          77120.8
+01:49:12.971 INFO  ProgressMeter -        chr1:65117471              0.9                 77000          88385.5
+01:49:23.168 INFO  ProgressMeter -        chr1:85775125              1.0                108000         103734.8
+01:49:33.330 INFO  ProgressMeter -       chr1:107764323              1.2                139000         114828.6
+01:49:44.181 INFO  ProgressMeter -       chr1:151007805              1.4                157000         112841.4
+01:49:54.453 INFO  ProgressMeter -       chr1:158648433              1.6                167000         106876.6
+01:50:04.570 INFO  ProgressMeter -       chr1:174147434              1.7                189000         109174.9
+01:50:15.156 INFO  ProgressMeter -       chr1:197438756              1.9                220000         115328.2
+01:50:25.330 INFO  ProgressMeter -       chr1:212789918              2.1                241000         116023.4
+01:50:35.441 INFO  ProgressMeter -       chr1:231633884              2.2                265000         118004.2
+01:50:45.512 INFO  ProgressMeter -         chr2:1778100              2.4                292000         120984.4
+01:50:55.759 INFO  ProgressMeter -        chr2:30274158              2.6                312000         120728.2
+01:51:05.900 INFO  ProgressMeter -        chr2:46865629              2.8                338000         122760.3
+01:51:16.088 INFO  ProgressMeter -        chr2:65715725              2.9                363000         124181.8
+01:51:26.255 INFO  ProgressMeter -        chr2:84463421              3.1                388000         125461.5
+01:51:36.633 INFO  ProgressMeter -       chr2:112198639              3.3                408000         124940.7
+01:51:46.841 INFO  ProgressMeter -       chr2:136787867              3.4                439000         127776.6
+01:51:57.122 INFO  ProgressMeter -       chr2:159576308              3.6                469000         130023.7
+01:52:07.240 INFO  ProgressMeter -       chr2:177415303              3.8                493000         130573.0
+01:52:17.257 INFO  ProgressMeter -       chr2:190285617              3.9                511000         129609.4
+01:52:27.589 INFO  ProgressMeter -       chr2:209944397              4.1                536000         130261.0
+01:52:37.710 INFO  ProgressMeter -       chr2:223920815              4.3                557000         130033.9
+01:52:48.082 INFO  ProgressMeter -       chr2:240421032              4.5                580000         130150.9
+01:52:58.468 INFO  ProgressMeter -        chr3:10784063              4.6                601000         129821.0
+01:53:08.673 INFO  ProgressMeter -        chr3:30023874              4.8                629000         131054.0
+01:53:19.042 INFO  ProgressMeter -        chr3:45836220              5.0                650000         130722.5
+01:53:29.850 INFO  ProgressMeter -        chr3:54157493              5.2                658000         127705.0
+01:53:40.163 INFO  ProgressMeter -        chr3:72025082              5.3                685000         128653.4
+01:53:50.533 INFO  ProgressMeter -       chr3:102267131              5.5                721000         131157.3
+01:54:00.620 INFO  ProgressMeter -       chr3:121464712              5.7                751000         132560.6
+01:54:10.742 INFO  ProgressMeter -       chr3:136626078              5.8                770000         131984.5
+01:54:21.090 INFO  ProgressMeter -       chr3:157275594              6.0                798000         132856.1
+01:54:31.393 INFO  ProgressMeter -       chr3:180265556              6.2                828000         134019.3
+01:54:41.717 INFO  ProgressMeter -       chr3:194832565              6.4                849000         133694.8
+01:54:52.039 INFO  ProgressMeter -        chr4:17822279              6.5                867000         132928.2
+01:55:02.214 INFO  ProgressMeter -        chr4:64236502              6.7                899000         134341.5
+01:55:12.701 INFO  ProgressMeter -        chr4:83447072              6.9                929000         135290.9
+01:55:23.148 INFO  ProgressMeter -        chr4:99400416              7.0                950000         134927.8
+01:55:33.441 INFO  ProgressMeter -       chr4:121740963              7.2                980000         135878.0
+01:55:43.473 INFO  ProgressMeter -       chr4:145490039              7.4               1014000         137406.8
+01:55:53.568 INFO  ProgressMeter -       chr4:167256536              7.5               1046000         138583.4
+01:56:03.843 INFO  ProgressMeter -       chr4:187010991              7.7               1080000         139913.6
+01:56:14.085 INFO  ProgressMeter -        chr5:17130724              7.9               1113000         141069.1
+01:56:24.180 INFO  ProgressMeter -        chr5:39214242              8.1               1147000         142343.0
+01:56:34.508 INFO  ProgressMeter -        chr5:66461045              8.2               1178000         143132.6
+01:56:44.526 INFO  ProgressMeter -        chr5:86816555              8.4               1205000         143501.9
+01:56:54.929 INFO  ProgressMeter -       chr5:113168761              8.6               1236000         144215.9
+01:57:05.431 INFO  ProgressMeter -       chr5:135496490              8.7               1265000         144645.5
+01:57:15.656 INFO  ProgressMeter -       chr5:163338179              8.9               1280000         143563.2
+01:57:26.100 INFO  ProgressMeter -       chr5:180281896              9.1               1304000         143454.3
+01:57:36.272 INFO  ProgressMeter -        chr6:18160804              9.3               1333000         143959.7
+01:57:48.236 INFO  ProgressMeter -        chr6:32286340              9.5               1354000         143145.1
+01:57:59.689 INFO  ProgressMeter -        chr6:44106333              9.6               1369000         141868.0
+01:58:09.699 INFO  ProgressMeter -        chr6:66533205              9.8               1397000         142309.2
+01:58:19.993 INFO  ProgressMeter -        chr6:88180027             10.0               1430000         143168.7
+01:58:30.180 INFO  ProgressMeter -       chr6:112199981             10.2               1461000         143827.5
+01:58:40.374 INFO  ProgressMeter -       chr6:134464039             10.3               1490000         144269.4
+01:58:50.652 INFO  ProgressMeter -       chr6:153741523             10.5               1515000         144296.7
+01:59:00.762 INFO  ProgressMeter -       chr6:169968955             10.7               1540000         144361.0
+01:59:11.066 INFO  ProgressMeter -        chr7:14425485             10.8               1565000         144380.2
+01:59:21.405 INFO  ProgressMeter -        chr7:32426274             11.0               1592000         144572.8
+01:59:31.531 INFO  ProgressMeter -        chr7:46701748             11.2               1611000         144089.9
+01:59:42.063 INFO  ProgressMeter -        chr7:78196335             11.4               1641000         144504.5
+01:59:52.362 INFO  ProgressMeter -        chr7:96894531             11.5               1664000         144348.0
+02:00:03.002 INFO  ProgressMeter -       chr7:108252776             11.7               1677000         143271.7
+02:00:13.267 INFO  ProgressMeter -       chr7:129974612             11.9               1704000         143481.2
+02:00:23.489 INFO  ProgressMeter -       chr7:146318875             12.0               1725000         143195.3
+02:00:34.862 INFO  ProgressMeter -        chr8:12935950             12.2               1745000         142611.6
+02:00:44.935 INFO  ProgressMeter -        chr8:23724672             12.4               1769000         142616.2
+02:00:54.947 INFO  ProgressMeter -        chr8:40177349             12.6               1790000         142393.7
+02:01:05.053 INFO  ProgressMeter -        chr8:62833912             12.7               1817000         142630.4
+02:01:12.642 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000523976.1 for variant: chr8:79766258-79766265(AGGCATGT* -> A): Cannot yet handle indels starting outside an exon and ending within an exon.
+02:01:15.478 INFO  ProgressMeter -        chr8:85978222             12.9               1845000         142879.6
+02:01:25.629 INFO  ProgressMeter -       chr8:105868421             13.1               1869000         142866.4
+02:01:35.721 INFO  ProgressMeter -       chr8:128031122             13.3               1899000         143317.0
+02:01:47.085 INFO  ProgressMeter -       chr8:143787416             13.4               1920000         142859.8
+02:01:57.299 INFO  ProgressMeter -         chr9:9807387             13.6               1938000         142395.5
+02:02:07.603 INFO  ProgressMeter -        chr9:28625622             13.8               1971000         143015.6
+02:02:17.613 INFO  ProgressMeter -        chr9:72680984             13.9               1992000         142810.7
+02:02:28.107 INFO  ProgressMeter -        chr9:93266361             14.1               2019000         142953.7
+02:02:38.111 INFO  ProgressMeter -       chr9:112422747             14.3               2044000         143035.3
+02:02:48.739 INFO  ProgressMeter -       chr9:128488286             14.5               2064000         142666.6
+02:03:00.969 INFO  ProgressMeter -       chr9:137863681             14.7               2077000         141570.4
+02:03:10.674 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000378076.3 for variant: chr10:15719771-15719775(TCTCC* -> T): Cannot yet handle indels starting outside an exon and ending within an exon.
+02:03:11.204 INFO  ProgressMeter -       chr10:16902029             14.8               2106000         141897.2
+02:03:21.575 INFO  ProgressMeter -       chr10:34543100             15.0               2132000         141995.4
+02:03:31.580 INFO  ProgressMeter -       chr10:55022711             15.2               2155000         141950.6
+02:03:41.585 INFO  ProgressMeter -       chr10:71859030             15.3               2181000         142102.4
+02:03:51.734 INFO  ProgressMeter -       chr10:89035131             15.5               2201000         141842.3
+02:04:01.738 INFO  ProgressMeter -      chr10:102870036             15.7               2218000         141418.3
+02:04:12.003 INFO  ProgressMeter -      chr10:121666257             15.9               2245000         141595.3
+02:04:22.720 INFO  ProgressMeter -         chr11:701723             16.0               2265000         141265.4
+02:04:32.914 INFO  ProgressMeter -        chr11:6761242             16.2               2275000         140401.2
+02:04:43.401 INFO  ProgressMeter -       chr11:20131957             16.4               2296000         140185.1
+02:04:53.629 INFO  ProgressMeter -       chr11:36930184             16.5               2324000         140433.1
+02:05:04.559 INFO  ProgressMeter -       chr11:58379725             16.7               2348000         140338.4
+02:05:16.909 INFO  ProgressMeter -       chr11:66035007             16.9               2356000         139105.2
+02:05:27.005 INFO  ProgressMeter -       chr11:75285482             17.1               2365000         138263.1
+02:05:37.112 INFO  ProgressMeter -       chr11:92924049             17.3               2390000         138362.0
+02:05:47.436 INFO  ProgressMeter -      chr11:110334301             17.4               2418000         138602.3
+02:05:57.693 INFO  ProgressMeter -      chr11:122302835             17.6               2434000         138165.5
+02:06:08.697 INFO  ProgressMeter -        chr12:7147518             17.8               2452000         137753.2
+02:06:18.793 INFO  ProgressMeter -       chr12:21549912             18.0               2474000         137687.6
+02:06:29.176 INFO  ProgressMeter -       chr12:42822955             18.1               2503000         137972.7
+02:06:39.848 INFO  ProgressMeter -       chr12:54686205             18.3               2517000         137397.3
+02:06:49.901 INFO  ProgressMeter -       chr12:67065381             18.5               2533000         137017.5
+02:07:00.237 INFO  ProgressMeter -       chr12:90171508             18.7               2562000         137306.8
+02:07:10.345 INFO  ProgressMeter -      chr12:107774054             18.8               2585000         137299.9
+02:07:20.419 INFO  ProgressMeter -      chr12:122160394             19.0               2602000         136981.1
+02:07:30.440 INFO  ProgressMeter -       chr13:21493806             19.2               2622000         136831.1
+02:07:40.466 INFO  ProgressMeter -       chr13:39474737             19.3               2651000         137148.4
+02:07:50.491 INFO  ProgressMeter -       chr13:61247007             19.5               2680000         137460.5
+02:08:00.502 INFO  ProgressMeter -       chr13:85860981             19.7               2719000         138277.4
+02:08:10.636 INFO  ProgressMeter -      chr13:108019896             19.8               2755000         138915.0
+02:08:24.425 INFO  ProgressMeter -       chr14:24560309             20.1               2771000         138121.4
+02:08:34.572 INFO  ProgressMeter -       chr14:47296534             20.2               2802000         138499.0
+02:08:45.157 INFO  ProgressMeter -       chr14:64742962             20.4               2828000         138575.7
+02:08:55.453 INFO  ProgressMeter -       chr14:79401506             20.6               2847000         138343.5
+02:09:05.576 INFO  ProgressMeter -       chr14:96833080             20.7               2873000         138471.6
+02:09:06.253 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000325812.6 for variant: chr14:98716189-98716198(TGGATGCATC* -> T): Cannot yet handle indels starting outside an exon and ending within an exon.
+02:09:15.918 INFO  ProgressMeter -       chr15:29102759             20.9               2893000         138286.7
+02:09:26.654 INFO  ProgressMeter -       chr15:43850488             21.1               2912000         138014.5
+02:09:36.964 INFO  ProgressMeter -       chr15:58254819             21.3               2933000         137886.8
+02:09:47.230 INFO  ProgressMeter -       chr15:72793008             21.4               2954000         137765.9
+02:09:57.261 INFO  ProgressMeter -       chr15:87226575             21.6               2970000         137440.5
+02:10:12.979 INFO  ProgressMeter -        chr16:1602613             21.9               2993000         136845.9
+02:10:25.666 INFO  ProgressMeter -       chr16:47187713             22.1               2995000         135626.1
+02:10:35.735 INFO  ProgressMeter -       chr16:62299596             22.3               3015000         135502.1
+02:10:45.761 INFO  ProgressMeter -       chr16:74068788             22.4               3026000         134982.7
+02:10:56.091 INFO  ProgressMeter -       chr16:85759361             22.6               3051000         135060.7
+02:11:08.166 INFO  ProgressMeter -        chr17:4903803             22.8               3064000         134438.4
+02:11:18.207 INFO  ProgressMeter -       chr17:12977450             23.0               3077000         134024.7
+02:11:28.359 INFO  ProgressMeter -       chr17:32573078             23.1               3091000         133649.5
+02:11:39.011 INFO  ProgressMeter -       chr17:43631357             23.3               3103000         133146.3
+02:11:49.285 INFO  ProgressMeter -       chr17:56018636             23.5               3117000         132771.5
+02:11:59.493 INFO  ProgressMeter -       chr17:72961295             23.6               3136000         132619.8
+02:12:09.552 INFO  ProgressMeter -       chr17:79182386             23.8               3146000         132106.1
+02:12:19.631 INFO  ProgressMeter -       chr18:27652514             24.0               3158000         131681.1
+02:12:29.950 INFO  ProgressMeter -       chr18:50547702             24.2               3187000         131944.1
+02:12:40.052 INFO  ProgressMeter -       chr18:70012633             24.3               3217000         132264.2
+02:12:50.137 INFO  ProgressMeter -        chr19:2708141             24.5               3237000         132173.1
+02:13:00.689 INFO  ProgressMeter -        chr19:9268952             24.7               3247000         131636.1
+02:13:10.701 INFO  ProgressMeter -       chr19:14974312             24.8               3254000         131033.5
+02:13:20.744 INFO  ProgressMeter -       chr19:31313024             25.0               3270000         130796.2
+02:13:31.187 INFO  ProgressMeter -       chr19:39944601             25.2               3281000         130328.9
+02:13:35.114 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000588797.5 for variant: chr19:43847014-43847020(GGGAGAT* -> G): Cannot yet handle indels starting outside an exon and ending within an exon.
+02:13:41.855 INFO  ProgressMeter -       chr19:48860882             25.4               3290000         129769.8
+02:13:52.443 INFO  ProgressMeter -       chr19:54764112             25.5               3299000         129225.3
+02:14:02.530 INFO  ProgressMeter -        chr20:3999629             25.7               3311000         128846.9
+02:14:12.679 INFO  ProgressMeter -       chr20:22720103             25.9               3339000         129086.8
+02:14:22.858 INFO  ProgressMeter -       chr20:41876480             26.0               3355000         128860.2
+02:14:32.884 INFO  ProgressMeter -       chr20:57959709             26.2               3377000         128878.0
+02:14:42.915 INFO  ProgressMeter -       chr21:23558396             26.4               3401000         128971.1
+02:14:53.172 INFO  ProgressMeter -       chr21:40969739             26.5               3428000         129157.7
+02:15:04.142 INFO  ProgressMeter -       chr22:22077277             26.7               3439000         128685.7
+02:15:14.150 INFO  ProgressMeter -       chr22:36246324             26.9               3456000         128519.6
+02:15:24.232 INFO  ProgressMeter -       chr22:48873047             27.1               3472000         128312.8
+02:15:26.324 INFO  Funcotator - No variants filtered by: AllowAllVariantsVariantFilter
+02:15:26.324 INFO  ProgressMeter -       chr22:49960624             27.1               3474036         128222.9
+02:15:26.324 INFO  ProgressMeter - Traversal complete. Processed 3474036 total variants in 27.1 minutes.
+02:15:26.898 INFO  Funcotator - Shutting down engine
+[December 5, 2019 2:15:26 AM UTC] org.broadinstitute.hellbender.tools.funcotator.Funcotator done. Elapsed time: 28.04 minutes.
+Runtime.totalMemory()=2108686336
+Tool returned:
+true
+Using GATK jar /gatk/gatk-package-4.0.10.1-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /gatk/gatk-package-4.0.10.1-local.jar Funcotator -R ref/hg38-plus.fa -V vcf/ash_son.vcf -O out/ash_son_benchmark.vcf --data-sources-path funcotator_dataSources.v1.4.20180829s --ref-version hg38 -output-file-format VCF
+02:15:36.503 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/gatk/gatk-package-4.0.10.1-local.jar!/com/intel/gkl/native/libgkl_compression.so
+02:15:38.255 INFO  Funcotator - ------------------------------------------------------------
+02:15:38.256 INFO  Funcotator - The Genome Analysis Toolkit (GATK) v4.0.10.1-0.0.4
+02:15:38.256 INFO  Funcotator - For support and documentation go to https://software.broadinstitute.org/gatk/
+02:15:38.257 INFO  Funcotator - Executing as root@c703611a1c2e on Linux v4.9.60-linuxkit-aufs amd64
+02:15:38.257 INFO  Funcotator - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_181-8u181-b13-0ubuntu0.16.04.1-b13
+02:15:38.257 INFO  Funcotator - Start Date/Time: December 5, 2019 2:15:36 AM UTC
+02:15:38.257 INFO  Funcotator - ------------------------------------------------------------
+02:15:38.257 INFO  Funcotator - ------------------------------------------------------------
+02:15:38.259 INFO  Funcotator - HTSJDK Version: 2.16.1
+02:15:38.259 INFO  Funcotator - Picard Version: 2.18.13
+02:15:38.260 INFO  Funcotator - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+02:15:38.260 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+02:15:38.260 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+02:15:38.260 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+02:15:38.260 INFO  Funcotator - Deflater: IntelDeflater
+02:15:38.261 INFO  Funcotator - Inflater: IntelInflater
+02:15:38.261 INFO  Funcotator - GCS max retries/reopens: 20
+02:15:38.261 INFO  Funcotator - Requester pays: disabled
+02:15:38.262 WARN  Funcotator - 
+
+[1m[31m   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+   Warning: Funcotator is a BETA tool and is not yet ready for use in production
+
+   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+
+
+02:15:38.262 INFO  Funcotator - Initializing engine
+02:15:53.407 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/vcf/ash_son.vcf
+02:15:53.532 INFO  Funcotator - Done initializing engine
+log4j:WARN No appenders could be found for logger (org.broadinstitute.hellbender.tools.funcotator.dataSources.DataSourceUtils).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+02:16:06.861 INFO  FeatureManager - Using codec GencodeGtfCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/gencode/hg38/gencode.v27.chr_patch_hapl_scaff.annotation.REORDERED.gtf
+02:16:23.353 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/lmm_known/hg38/LMM_Path_LP_VUS5-variants-6-12-18.sorted_liftover_b38.corrected.vcf
+02:16:23.421 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/lmm_known/hg38/LMM_Path_LP_VUS5-variants-6-12-18.sorted_liftover_b38.corrected.vcf
+02:16:24.696 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/clinvar/hg38/clinvar_20180429_hg38.vcf
+02:16:26.119 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/clinvar/hg38/clinvar_20180429_hg38.vcf
+02:16:39.505 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/exac/hg38/ExAC.r1.sites.liftover.b38.corrected.vcf.gz
+02:16:39.848 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/exac/hg38/ExAC.r1.sites.liftover.b38.corrected.vcf.gz
+02:16:39.940 INFO  Funcotator - Creating a VCF file for output: file:/funcotator/funcotator/out/ash_son_benchmark.vcf
+02:16:39.981 INFO  ProgressMeter - Starting traversal
+02:16:39.981 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+02:16:50.015 INFO  ProgressMeter -         chr1:7104369              0.2                  8000          47842.1
+02:17:00.318 INFO  ProgressMeter -        chr1:21163667              0.3                 26000          76711.3
+02:17:10.993 INFO  ProgressMeter -        chr1:36408507              0.5                 42000          81264.1
+02:17:21.165 INFO  ProgressMeter -        chr1:50909280              0.7                 58000          84500.9
+02:17:31.427 INFO  ProgressMeter -        chr1:68850544              0.9                 83000          96802.4
+02:17:41.640 INFO  ProgressMeter -        chr1:91952441              1.0                114000         110934.5
+02:17:52.702 INFO  ProgressMeter -       chr1:111873931              1.2                142000         117161.7
+02:18:02.776 INFO  ProgressMeter -       chr1:152275021              1.4                158000         114501.1
+02:18:13.332 INFO  ProgressMeter -       chr1:161709479              1.6                170000         109266.2
+02:18:23.593 INFO  ProgressMeter -       chr1:180016660              1.7                197000         114080.6
+02:18:34.243 INFO  ProgressMeter -       chr1:202678204              1.9                228000         119725.9
+02:18:44.482 INFO  ProgressMeter -       chr1:220767939              2.1                251000         120963.9
+02:18:54.766 INFO  ProgressMeter -       chr1:237760814              2.2                274000         121972.9
+02:19:04.836 INFO  ProgressMeter -        chr2:12565020              2.4                303000         125505.7
+02:19:14.881 INFO  ProgressMeter -        chr2:30699367              2.6                325000         125888.5
+02:19:24.955 INFO  ProgressMeter -        chr2:48340825              2.7                351000         127657.3
+02:19:35.067 INFO  ProgressMeter -        chr2:69376132              2.9                378000         129537.1
+02:19:45.405 INFO  ProgressMeter -        chr2:95074355              3.1                399000         129110.2
+02:19:55.630 INFO  ProgressMeter -       chr2:118174908              3.3                424000         130029.4
+02:20:05.889 INFO  ProgressMeter -       chr2:144824535              3.4                456000         132875.5
+02:20:16.330 INFO  ProgressMeter -       chr2:166311291              3.6                483000         133950.9
+02:20:28.003 INFO  ProgressMeter -       chr2:179497918              3.8                501000         131830.0
+02:20:38.537 INFO  ProgressMeter -       chr2:201043814              4.0                531000         133554.1
+02:20:48.731 INFO  ProgressMeter -       chr2:218296026              4.1                555000         133870.4
+02:20:58.756 INFO  ProgressMeter -       chr2:233106107              4.3                575000         133321.0
+02:21:08.820 INFO  ProgressMeter -         chr3:5103901              4.5                597000         133240.1
+02:21:18.875 INFO  ProgressMeter -        chr3:21784479              4.6                621000         133599.6
+02:21:29.290 INFO  ProgressMeter -        chr3:41248022              4.8                648000         134390.1
+02:21:39.939 INFO  ProgressMeter -        chr3:51885718              5.0                660000         132018.9
+02:21:50.198 INFO  ProgressMeter -        chr3:65478073              5.2                680000         131521.3
+02:22:00.459 INFO  ProgressMeter -        chr3:90712006              5.3                716000         134050.2
+02:22:10.826 INFO  ProgressMeter -       chr3:115269424              5.5                745000         135109.0
+02:22:21.161 INFO  ProgressMeter -       chr3:131683570              5.7                767000         134885.2
+02:22:31.529 INFO  ProgressMeter -       chr3:151359704              5.9                793000         135345.0
+02:22:41.784 INFO  ProgressMeter -       chr3:174104153              6.0                821000         136151.8
+02:22:52.051 INFO  ProgressMeter -       chr3:191748885              6.2                845000         136265.0
+02:23:02.402 INFO  ProgressMeter -         chr4:6890036              6.4                859000         134773.3
+02:23:12.471 INFO  ProgressMeter -        chr4:28153185              6.5                891000         136207.6
+02:23:22.510 INFO  ProgressMeter -        chr4:60892989              6.7                922000         137431.8
+02:23:32.790 INFO  ProgressMeter -        chr4:81850074              6.9                953000         138514.8
+02:23:42.941 INFO  ProgressMeter -        chr4:96214877              7.0                972000         137885.7
+02:23:53.085 INFO  ProgressMeter -       chr4:118863616              7.2               1002000         138812.2
+02:24:03.265 INFO  ProgressMeter -       chr4:142092926              7.4               1038000         140497.2
+02:24:13.522 INFO  ProgressMeter -       chr4:164370625              7.6               1070000         141553.1
+02:24:23.610 INFO  ProgressMeter -       chr4:185208203              7.7               1106000         143132.0
+02:24:33.663 INFO  ProgressMeter -        chr5:13146781              7.9               1139000         144274.3
+02:24:44.181 INFO  ProgressMeter -        chr5:36230036              8.1               1176000         145725.2
+02:24:54.251 INFO  ProgressMeter -        chr5:61565124              8.2               1204000         146155.5
+02:25:04.646 INFO  ProgressMeter -        chr5:83730028              8.4               1231000         146354.8
+02:25:14.914 INFO  ProgressMeter -       chr5:111603119              8.6               1264000         147281.6
+02:25:25.236 INFO  ProgressMeter -       chr5:132841812              8.8               1294000         147814.2
+02:25:35.825 INFO  ProgressMeter -       chr5:150498211              8.9               1308000         146460.8
+02:25:46.067 INFO  ProgressMeter -       chr5:170893436              9.1               1334000         146570.6
+02:25:56.202 INFO  ProgressMeter -         chr6:4914925              9.3               1355000         146165.2
+02:26:06.256 INFO  ProgressMeter -        chr6:23602449              9.4               1385000         146748.7
+02:26:16.944 INFO  ProgressMeter -        chr6:32989625              9.6               1398000         145382.2
+02:26:27.182 INFO  ProgressMeter -        chr6:45201016              9.8               1414000         144482.3
+02:26:37.358 INFO  ProgressMeter -        chr6:68610239             10.0               1446000         145235.4
+02:26:47.447 INFO  ProgressMeter -        chr6:88511931             10.1               1475000         145687.4
+02:26:57.760 INFO  ProgressMeter -       chr6:111032233             10.3               1504000         146071.9
+02:27:08.039 INFO  ProgressMeter -       chr6:133248879             10.5               1533000         146451.7
+02:27:18.328 INFO  ProgressMeter -       chr6:153686308             10.6               1558000         146441.0
+02:27:28.776 INFO  ProgressMeter -         chr7:1528615             10.8               1584000         146487.2
+02:27:38.922 INFO  ProgressMeter -        chr7:14505522             11.0               1607000         146325.9
+02:27:49.194 INFO  ProgressMeter -        chr7:31755056             11.2               1632000         146321.3
+02:27:59.285 INFO  ProgressMeter -        chr7:48822452             11.3               1655000         146179.2
+02:28:09.378 INFO  ProgressMeter -        chr7:78403685             11.5               1682000         146389.0
+02:28:19.620 INFO  ProgressMeter -        chr7:98670690             11.7               1707000         146390.0
+02:28:30.039 INFO  ProgressMeter -       chr7:107641384             11.8               1717000         145086.9
+02:28:40.515 INFO  ProgressMeter -       chr7:129765897             12.0               1743000         145142.6
+02:28:50.552 INFO  ProgressMeter -       chr7:146121742             12.2               1764000         144873.2
+02:29:00.784 INFO  ProgressMeter -         chr8:2747808             12.3               1786000         144654.0
+02:29:11.186 INFO  ProgressMeter -        chr8:17752009             12.5               1814000         144887.4
+02:29:21.441 INFO  ProgressMeter -        chr8:30624840             12.7               1835000         144590.8
+02:29:31.644 INFO  ProgressMeter -        chr8:53598288             12.9               1860000         144622.9
+02:29:41.828 INFO  ProgressMeter -        chr8:75637039             13.0               1888000         144887.9
+02:29:51.897 INFO  ProgressMeter -        chr8:97825973             13.2               1916000         145167.1
+02:30:02.303 INFO  ProgressMeter -       chr8:120026577             13.4               1944000         145378.4
+02:30:12.344 INFO  ProgressMeter -       chr8:139695753             13.5               1975000         145870.9
+02:30:22.521 INFO  ProgressMeter -         chr9:2541567             13.7               1987000         144941.5
+02:30:32.657 INFO  ProgressMeter -        chr9:17931514             13.9               2016000         145266.8
+02:30:43.745 INFO  ProgressMeter -        chr9:36425292             14.1               2043000         145277.9
+02:30:54.063 INFO  ProgressMeter -        chr9:86425695             14.2               2071000         145489.7
+02:31:04.178 INFO  ProgressMeter -       chr9:105903491             14.4               2095000         145453.1
+02:31:14.759 INFO  ProgressMeter -       chr9:124130181             14.6               2120000         145408.5
+02:31:24.962 INFO  ProgressMeter -       chr9:134788039             14.7               2134000         144681.4
+02:31:35.107 INFO  ProgressMeter -        chr10:7905585             14.9               2150000         144114.0
+02:31:40.059 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000378076.3 for variant: chr10:15719771-15719775(TCTCC* -> T): Cannot yet handle indels starting outside an exon and ending within an exon.
+02:31:45.262 INFO  ProgressMeter -       chr10:26106929             15.1               2180000         144485.7
+02:31:55.545 INFO  ProgressMeter -       chr10:49687342             15.3               2207000         144632.3
+02:32:05.647 INFO  ProgressMeter -       chr10:62530006             15.4               2228000         144415.3
+02:32:16.048 INFO  ProgressMeter -       chr10:77311023             15.6               2250000         144220.6
+02:32:26.676 INFO  ProgressMeter -       chr10:97102329             15.8               2275000         144186.0
+02:32:36.839 INFO  ProgressMeter -      chr10:114885477             15.9               2297000         144034.1
+02:32:46.963 INFO  ProgressMeter -      chr10:131849335             16.1               2325000         144263.4
+02:32:56.974 INFO  ProgressMeter -        chr11:5452649             16.3               2336000         143460.7
+02:33:07.417 INFO  ProgressMeter -       chr11:18096274             16.5               2357000         143219.6
+02:33:17.945 INFO  ProgressMeter -       chr11:33913468             16.6               2385000         143392.1
+02:33:28.503 INFO  ProgressMeter -       chr11:50401481             16.8               2407000         143199.8
+02:33:41.015 INFO  ProgressMeter -       chr11:65721202             17.0               2420000         142208.9
+02:33:51.404 INFO  ProgressMeter -       chr11:74654694             17.2               2428000         141241.9
+02:34:01.408 INFO  ProgressMeter -       chr11:89500858             17.4               2448000         141037.4
+02:34:11.999 INFO  ProgressMeter -      chr11:108391712             17.5               2478000         141328.5
+02:34:22.162 INFO  ProgressMeter -      chr11:121814872             17.7               2495000         140936.6
+02:34:32.434 INFO  ProgressMeter -        chr12:3298669             17.9               2516000         140761.5
+02:34:42.577 INFO  ProgressMeter -       chr12:17717831             18.0               2535000         140495.8
+02:34:52.708 INFO  ProgressMeter -       chr12:34502622             18.2               2564000         140785.5
+02:35:03.635 INFO  ProgressMeter -       chr12:52726925             18.4               2584000         140478.9
+02:35:13.855 INFO  ProgressMeter -       chr12:63351572             18.6               2597000         139890.3
+02:35:24.075 INFO  ProgressMeter -       chr12:85437025             18.7               2625000         140113.0
+02:35:34.099 INFO  ProgressMeter -      chr12:104374607             18.9               2650000         140197.2
+02:35:44.813 INFO  ProgressMeter -      chr12:120711793             19.1               2671000         139985.7
+02:35:54.826 INFO  ProgressMeter -       chr13:20112463             19.2               2692000         139863.0
+02:36:05.184 INFO  ProgressMeter -       chr13:37985656             19.4               2720000         140061.6
+02:36:15.404 INFO  ProgressMeter -       chr13:58039986             19.6               2747000         140222.0
+02:36:25.456 INFO  ProgressMeter -       chr13:80697198             19.8               2784000         140905.7
+02:36:35.589 INFO  ProgressMeter -      chr13:104336573             19.9               2820000         141518.1
+02:36:46.504 INFO  ProgressMeter -       chr14:23735177             20.1               2843000         141381.6
+02:36:56.591 INFO  ProgressMeter -       chr14:36999472             20.3               2861000         141097.1
+02:37:06.598 INFO  ProgressMeter -       chr14:57913792             20.4               2891000         141413.4
+02:37:16.690 INFO  ProgressMeter -       chr14:73493587             20.6               2912000         141278.3
+02:37:26.960 INFO  ProgressMeter -       chr14:91067282             20.8               2938000         141365.9
+02:37:29.830 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000618863.1 for variant: chr14:94115784-94115793(TGGCCATGGC* -> T): Cannot yet handle indels starting outside an exon and ending within an exon.
+02:37:32.615 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000325812.6 for variant: chr14:98716189-98716198(TGGATGCATC* -> T): Cannot yet handle indels starting outside an exon and ending within an exon.
+02:37:37.352 INFO  ProgressMeter -      chr14:104710345             21.0               2959000         141199.5
+02:37:47.444 INFO  ProgressMeter -       chr15:38877140             21.1               2981000         141116.9
+02:37:57.521 INFO  ProgressMeter -       chr15:50977432             21.3               2995000         140661.1
+02:38:08.450 INFO  ProgressMeter -       chr15:65899270             21.5               3020000         140632.1
+02:38:18.564 INFO  ProgressMeter -       chr15:79698875             21.6               3037000         140322.3
+02:38:28.591 INFO  ProgressMeter -       chr15:95630875             21.8               3059000         140255.8
+02:38:42.789 INFO  ProgressMeter -        chr16:3219396             22.0               3070000         139249.3
+02:38:53.637 INFO  ProgressMeter -       chr16:16070208             22.2               3086000         138836.5
+02:39:04.119 INFO  ProgressMeter -       chr16:48662617             22.4               3096000         138200.2
+02:39:14.272 INFO  ProgressMeter -       chr16:63309468             22.6               3117000         138094.5
+02:39:24.464 INFO  ProgressMeter -       chr16:75255711             22.7               3129000         137590.7
+02:39:34.546 INFO  ProgressMeter -       chr16:85933998             22.9               3153000         137629.1
+02:39:46.059 INFO  ProgressMeter -        chr17:5327425             23.1               3166000         137048.7
+02:39:56.218 INFO  ProgressMeter -       chr17:14469522             23.3               3180000         136653.1
+02:40:06.335 INFO  ProgressMeter -       chr17:33524698             23.4               3193000         136224.7
+02:40:16.626 INFO  ProgressMeter -       chr17:42923966             23.6               3203000         135658.7
+02:40:27.647 INFO  ProgressMeter -       chr17:51159394             23.8               3213000         135031.7
+02:40:37.902 INFO  ProgressMeter -       chr17:69892170             24.0               3234000         134944.9
+02:40:48.786 INFO  ProgressMeter -       chr17:80551250             24.1               3251000         134635.2
+02:40:58.885 INFO  ProgressMeter -       chr18:13459767             24.3               3268000         134402.4
+02:41:09.121 INFO  ProgressMeter -       chr18:43351578             24.5               3295000         134568.6
+02:41:19.220 INFO  ProgressMeter -       chr18:60053466             24.7               3320000         134663.9
+02:41:29.590 INFO  ProgressMeter -       chr18:79371501             24.8               3351000         134975.1
+02:41:39.622 INFO  ProgressMeter -        chr19:6730620             25.0               3360000         134432.3
+02:41:49.689 INFO  ProgressMeter -       chr19:13588693             25.2               3369000         133893.5
+02:41:59.720 INFO  ProgressMeter -       chr19:23099655             25.3               3381000         133483.5
+02:42:10.644 INFO  ProgressMeter -       chr19:39038976             25.5               3400000         133275.7
+02:42:15.203 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000588797.5 for variant: chr19:43847014-43847020(GGGAGAT* -> G): Cannot yet handle indels starting outside an exon and ending within an exon.
+02:42:20.696 INFO  ProgressMeter -       chr19:48568899             25.7               3410000         132795.6
+02:42:31.154 INFO  ProgressMeter -       chr19:54268764             25.9               3419000         132248.4
+02:42:41.174 INFO  ProgressMeter -        chr20:3681588             26.0               3432000         131899.2
+02:42:51.248 INFO  ProgressMeter -       chr20:24231409             26.2               3461000         132160.9
+02:43:01.835 INFO  ProgressMeter -       chr20:45592969             26.4               3479000         131959.2
+02:43:11.964 INFO  ProgressMeter -       chr20:61627560             26.5               3501000         131948.7
+02:43:22.214 INFO  ProgressMeter -       chr21:30246318             26.7               3530000         132190.6
+02:43:32.645 INFO  ProgressMeter -       chr21:43907869             26.9               3552000         132154.1
+02:43:42.892 INFO  ProgressMeter -       chr22:27018464             27.0               3565000         131800.3
+02:43:53.135 INFO  ProgressMeter -       chr22:39952192             27.2               3581000         131561.5
+02:44:02.106 INFO  Funcotator - No variants filtered by: AllowAllVariantsVariantFilter
+02:44:02.107 INFO  ProgressMeter -       chr22:50533366             27.4               3596121         131395.1
+02:44:02.107 INFO  ProgressMeter - Traversal complete. Processed 3596121 total variants in 27.4 minutes.
+02:44:02.819 INFO  Funcotator - Shutting down engine
+[December 5, 2019 2:44:02 AM UTC] org.broadinstitute.hellbender.tools.funcotator.Funcotator done. Elapsed time: 28.44 minutes.
+Runtime.totalMemory()=2315780096
+Tool returned:
+true
+Using GATK jar /gatk/gatk-package-4.0.10.1-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /gatk/gatk-package-4.0.10.1-local.jar Funcotator -R ref/hg38-plus.fa -V vcf/han_father.vcf -O out/han_father_benchmark.vcf --data-sources-path funcotator_dataSources.v1.4.20180829s --ref-version hg38 -output-file-format VCF
+02:44:14.186 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/gatk/gatk-package-4.0.10.1-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Dec 05, 2019 2:44:15 AM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+WARNING: Failed to detect whether we are running on Google Compute Engine.
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at shaded.cloud_nio.com.google.api.client.http.javanet.NetHttpRequest.execute(NetHttpRequest.java:104)
+	at shaded.cloud_nio.com.google.api.client.http.HttpRequest.execute(HttpRequest.java:981)
+	at shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials.runningOnComputeEngine(ComputeEngineCredentials.java:210)
+	at shaded.cloud_nio.com.google.auth.oauth2.DefaultCredentialsProvider.tryGetComputeCredentials(DefaultCredentialsProvider.java:290)
+	at shaded.cloud_nio.com.google.auth.oauth2.DefaultCredentialsProvider.getDefaultCredentialsUnsynchronized(DefaultCredentialsProvider.java:207)
+	at shaded.cloud_nio.com.google.auth.oauth2.DefaultCredentialsProvider.getDefaultCredentials(DefaultCredentialsProvider.java:124)
+	at shaded.cloud_nio.com.google.auth.oauth2.GoogleCredentials.getApplicationDefault(GoogleCredentials.java:127)
+	at shaded.cloud_nio.com.google.auth.oauth2.GoogleCredentials.getApplicationDefault(GoogleCredentials.java:100)
+	at com.google.cloud.ServiceOptions.defaultCredentials(ServiceOptions.java:304)
+	at com.google.cloud.ServiceOptions.<init>(ServiceOptions.java:278)
+	at com.google.cloud.storage.StorageOptions.<init>(StorageOptions.java:83)
+	at com.google.cloud.storage.StorageOptions.<init>(StorageOptions.java:31)
+	at com.google.cloud.storage.StorageOptions$Builder.build(StorageOptions.java:78)
+	at org.broadinstitute.hellbender.utils.gcs.BucketUtils.setGlobalNIODefaultOptions(BucketUtils.java:360)
+	at org.broadinstitute.hellbender.cmdline.CommandLineProgram.instanceMainPostParseArgs(CommandLineProgram.java:183)
+	at org.broadinstitute.hellbender.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:211)
+	at org.broadinstitute.hellbender.Main.runCommandLineProgram(Main.java:160)
+	at org.broadinstitute.hellbender.Main.mainEntry(Main.java:203)
+	at org.broadinstitute.hellbender.Main.main(Main.java:289)
+
+Dec 05, 2019 2:44:15 AM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+WARNING: Failed to detect whether we are running on Google Compute Engine.
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at shaded.cloud_nio.com.google.api.client.http.javanet.NetHttpRequest.execute(NetHttpRequest.java:104)
+	at shaded.cloud_nio.com.google.api.client.http.HttpRequest.execute(HttpRequest.java:981)
+	at shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials.runningOnComputeEngine(ComputeEngineCredentials.java:210)
+	at shaded.cloud_nio.com.google.auth.oauth2.DefaultCredentialsProvider.tryGetComputeCredentials(DefaultCredentialsProvider.java:290)
+	at shaded.cloud_nio.com.google.auth.oauth2.DefaultCredentialsProvider.getDefaultCredentialsUnsynchronized(DefaultCredentialsProvider.java:207)
+	at shaded.cloud_nio.com.google.auth.oauth2.DefaultCredentialsProvider.getDefaultCredentials(DefaultCredentialsProvider.java:124)
+	at shaded.cloud_nio.com.google.auth.oauth2.GoogleCredentials.getApplicationDefault(GoogleCredentials.java:127)
+	at shaded.cloud_nio.com.google.auth.oauth2.GoogleCredentials.getApplicationDefault(GoogleCredentials.java:100)
+	at com.google.cloud.ServiceOptions.defaultCredentials(ServiceOptions.java:304)
+	at com.google.cloud.ServiceOptions.<init>(ServiceOptions.java:278)
+	at com.google.cloud.storage.StorageOptions.<init>(StorageOptions.java:83)
+	at com.google.cloud.storage.StorageOptions.<init>(StorageOptions.java:31)
+	at com.google.cloud.storage.StorageOptions$Builder.build(StorageOptions.java:78)
+	at org.broadinstitute.hellbender.utils.gcs.BucketUtils.setGlobalNIODefaultOptions(BucketUtils.java:360)
+	at org.broadinstitute.hellbender.cmdline.CommandLineProgram.instanceMainPostParseArgs(CommandLineProgram.java:183)
+	at org.broadinstitute.hellbender.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:211)
+	at org.broadinstitute.hellbender.Main.runCommandLineProgram(Main.java:160)
+	at org.broadinstitute.hellbender.Main.mainEntry(Main.java:203)
+	at org.broadinstitute.hellbender.Main.main(Main.java:289)
+
+02:44:15.160 INFO  Funcotator - ------------------------------------------------------------
+02:44:15.161 INFO  Funcotator - The Genome Analysis Toolkit (GATK) v4.0.10.1-0.0.4
+02:44:15.161 INFO  Funcotator - For support and documentation go to https://software.broadinstitute.org/gatk/
+02:44:15.162 INFO  Funcotator - Executing as root@c703611a1c2e on Linux v4.9.60-linuxkit-aufs amd64
+02:44:15.162 INFO  Funcotator - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_181-8u181-b13-0ubuntu0.16.04.1-b13
+02:44:15.164 INFO  Funcotator - Start Date/Time: December 5, 2019 2:44:14 AM UTC
+02:44:15.165 INFO  Funcotator - ------------------------------------------------------------
+02:44:15.165 INFO  Funcotator - ------------------------------------------------------------
+02:44:15.166 INFO  Funcotator - HTSJDK Version: 2.16.1
+02:44:15.166 INFO  Funcotator - Picard Version: 2.18.13
+02:44:15.167 INFO  Funcotator - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+02:44:15.167 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+02:44:15.168 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+02:44:15.168 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+02:44:15.168 INFO  Funcotator - Deflater: IntelDeflater
+02:44:15.169 INFO  Funcotator - Inflater: IntelInflater
+02:44:15.170 INFO  Funcotator - GCS max retries/reopens: 20
+02:44:15.170 INFO  Funcotator - Requester pays: disabled
+02:44:15.171 WARN  Funcotator - 
+
+[1m[31m   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+   Warning: Funcotator is a BETA tool and is not yet ready for use in production
+
+   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+
+
+02:44:15.171 INFO  Funcotator - Initializing engine
+02:44:33.336 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/vcf/han_father.vcf
+02:44:33.408 INFO  Funcotator - Done initializing engine
+log4j:WARN No appenders could be found for logger (org.broadinstitute.hellbender.tools.funcotator.dataSources.DataSourceUtils).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+02:44:45.472 INFO  FeatureManager - Using codec GencodeGtfCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/gencode/hg38/gencode.v27.chr_patch_hapl_scaff.annotation.REORDERED.gtf
+02:45:05.389 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/lmm_known/hg38/LMM_Path_LP_VUS5-variants-6-12-18.sorted_liftover_b38.corrected.vcf
+02:45:05.448 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/lmm_known/hg38/LMM_Path_LP_VUS5-variants-6-12-18.sorted_liftover_b38.corrected.vcf
+02:45:06.832 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/clinvar/hg38/clinvar_20180429_hg38.vcf
+02:45:07.159 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/clinvar/hg38/clinvar_20180429_hg38.vcf
+02:45:21.957 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/exac/hg38/ExAC.r1.sites.liftover.b38.corrected.vcf.gz
+02:45:22.559 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/exac/hg38/ExAC.r1.sites.liftover.b38.corrected.vcf.gz
+02:45:22.659 INFO  Funcotator - Creating a VCF file for output: file:/funcotator/funcotator/out/han_father_benchmark.vcf
+02:45:22.733 INFO  ProgressMeter - Starting traversal
+02:45:22.734 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+02:45:33.988 INFO  ProgressMeter -         chr1:7027787              0.2                  9000          47991.5
+02:45:44.336 INFO  ProgressMeter -        chr1:20269983              0.4                 25000          69441.2
+02:45:54.644 INFO  ProgressMeter -        chr1:33301627              0.5                 40000          75213.9
+02:46:06.279 INFO  ProgressMeter -        chr1:45415079              0.7                 54000          74407.5
+02:46:16.297 INFO  ProgressMeter -        chr1:60780504              0.9                 72000          80654.2
+02:46:26.316 INFO  ProgressMeter -        chr1:79997852              1.1                 99000          93424.1
+02:46:36.743 INFO  ProgressMeter -       chr1:100289308              1.2                126000         102151.1
+02:46:46.814 INFO  ProgressMeter -       chr1:117665802              1.4                150000         107042.2
+02:46:58.205 INFO  ProgressMeter -       chr1:156162029              1.6                161000         101183.6
+02:47:08.474 INFO  ProgressMeter -       chr1:169340009              1.8                181000         102705.7
+02:47:18.483 INFO  ProgressMeter -       chr1:188575420              1.9                206000         106783.7
+02:47:29.279 INFO  ProgressMeter -       chr1:207928311              2.1                232000         110001.3
+02:47:39.633 INFO  ProgressMeter -       chr1:227411313              2.3                259000         113515.2
+02:47:49.867 INFO  ProgressMeter -       chr1:244995309              2.5                284000         115814.4
+02:47:59.993 INFO  ProgressMeter -        chr2:24373149              2.6                311000         118658.5
+02:48:10.564 INFO  ProgressMeter -        chr2:39175837              2.8                331000         118334.7
+02:48:20.636 INFO  ProgressMeter -        chr2:56470543              3.0                356000         120066.8
+02:48:30.881 INFO  ProgressMeter -        chr2:75396308              3.1                378000         120544.7
+02:48:40.949 INFO  ProgressMeter -       chr2:101589539              3.3                402000         121686.7
+02:48:51.129 INFO  ProgressMeter -       chr2:125576732              3.5                432000         124379.8
+02:49:02.029 INFO  ProgressMeter -       chr2:151889617              3.7                464000         126953.4
+02:49:12.347 INFO  ProgressMeter -       chr2:171761820              3.8                489000         127780.8
+02:49:22.543 INFO  ProgressMeter -       chr2:183061274              4.0                504000         126100.9
+02:49:32.944 INFO  ProgressMeter -       chr2:205354288              4.2                531000         127333.5
+02:49:43.762 INFO  ProgressMeter -       chr2:219967022              4.4                551000         126653.6
+02:49:54.137 INFO  ProgressMeter -       chr2:238029389              4.5                576000         127338.8
+02:50:04.506 INFO  ProgressMeter -        chr3:10442493              4.7                599000         127550.4
+02:50:14.595 INFO  ProgressMeter -        chr3:31226581              4.9                627000         128897.4
+02:50:25.706 INFO  ProgressMeter -        chr3:48369284              5.0                648000         128329.1
+02:50:35.943 INFO  ProgressMeter -        chr3:55380146              5.2                656000         125667.3
+02:50:46.072 INFO  ProgressMeter -        chr3:75069002              5.4                684000         126926.4
+02:50:56.377 INFO  ProgressMeter -       chr3:107986263              5.6                720000         129480.1
+02:51:06.814 INFO  ProgressMeter -       chr3:124757841              5.7                745000         129912.0
+02:51:16.836 INFO  ProgressMeter -       chr3:143691619              5.9                766000         129793.5
+02:51:26.946 INFO  ProgressMeter -       chr3:163759962              6.1                795000         130968.0
+02:51:37.411 INFO  ProgressMeter -       chr3:184732096              6.2                819000         131153.3
+02:51:47.580 INFO  ProgressMeter -          chr4:989064              6.4                839000         130805.9
+02:51:57.731 INFO  ProgressMeter -        chr4:23472812              6.6                865000         131393.7
+02:52:07.752 INFO  ProgressMeter -        chr4:58264845              6.8                893000         132290.7
+02:52:18.090 INFO  ProgressMeter -        chr4:79231932              6.9                925000         133620.6
+02:52:28.226 INFO  ProgressMeter -        chr4:99126006              7.1                950000         133962.9
+02:52:38.325 INFO  ProgressMeter -       chr4:121057607              7.3                979000         134851.6
+02:52:48.657 INFO  ProgressMeter -       chr4:146434072              7.4               1015000         136571.3
+02:52:58.951 INFO  ProgressMeter -       chr4:168712155              7.6               1047000         137697.9
+02:53:08.969 INFO  ProgressMeter -       chr4:188283512              7.8               1081000         139114.7
+02:53:19.000 INFO  ProgressMeter -        chr5:18897016              7.9               1114000         140342.3
+02:53:29.061 INFO  ProgressMeter -        chr5:42780213              8.1               1145000         141263.3
+02:53:39.381 INFO  ProgressMeter -        chr5:71558272              8.3               1174000         141831.4
+02:53:49.405 INFO  ProgressMeter -        chr5:93864567              8.4               1201000         142222.7
+02:53:59.581 INFO  ProgressMeter -       chr5:117898752              8.6               1232000         143021.3
+02:54:11.911 INFO  ProgressMeter -       chr5:143004136              8.8               1257000         142523.7
+02:54:22.312 INFO  ProgressMeter -       chr5:169110726              9.0               1281000         142444.9
+02:54:32.727 INFO  ProgressMeter -         chr6:3365893              9.2               1303000         142147.5
+02:54:43.102 INFO  ProgressMeter -        chr6:24530645              9.3               1336000         143049.1
+02:54:53.413 INFO  ProgressMeter -        chr6:34190428              9.5               1349000         141831.3
+02:55:03.542 INFO  ProgressMeter -        chr6:47729378              9.7               1367000         141217.3
+02:55:13.663 INFO  ProgressMeter -        chr6:72859436              9.8               1398000         141946.5
+02:55:23.663 INFO  ProgressMeter -        chr6:93782854             10.0               1430000         142779.2
+02:55:33.697 INFO  ProgressMeter -       chr6:117106994             10.2               1461000         143478.6
+02:55:43.730 INFO  ProgressMeter -       chr6:137489507             10.3               1487000         143672.7
+02:55:53.996 INFO  ProgressMeter -       chr6:157709088             10.5               1514000         143902.7
+02:56:04.098 INFO  ProgressMeter -         chr7:2577507             10.7               1539000         143974.6
+02:56:14.142 INFO  ProgressMeter -        chr7:20169656             10.9               1567000         144333.7
+02:56:24.280 INFO  ProgressMeter -        chr7:38211435             11.0               1593000         144480.0
+02:56:34.568 INFO  ProgressMeter -        chr7:66182835             11.2               1620000         144678.8
+02:56:44.749 INFO  ProgressMeter -        chr7:91085352             11.4               1647000         144894.4
+02:56:55.277 INFO  ProgressMeter -       chr7:103393930             11.5               1660000         143818.0
+02:57:05.494 INFO  ProgressMeter -       chr7:125155394             11.7               1686000         143946.9
+02:57:15.804 INFO  ProgressMeter -       chr7:143736199             11.9               1709000         143801.0
+02:57:26.105 INFO  ProgressMeter -       chr7:159193678             12.1               1732000         143660.9
+02:57:36.357 INFO  ProgressMeter -        chr8:18387152             12.2               1758000         143779.8
+02:57:46.632 INFO  ProgressMeter -        chr8:31674641             12.4               1778000         143407.0
+02:57:56.842 INFO  ProgressMeter -        chr8:54168629             12.6               1800000         143215.8
+02:58:06.873 INFO  ProgressMeter -        chr8:73926561             12.7               1824000         143220.2
+02:58:16.946 INFO  ProgressMeter -        chr8:99289312             12.9               1852000         143526.8
+02:58:27.101 INFO  ProgressMeter -       chr8:121666858             13.1               1878000         143657.4
+02:58:37.653 INFO  ProgressMeter -       chr8:141304268             13.2               1906000         143863.9
+02:58:48.148 INFO  ProgressMeter -         chr9:2435075             13.4               1917000         142808.9
+02:58:58.408 INFO  ProgressMeter -        chr9:18063021             13.6               1946000         143145.6
+02:59:09.421 INFO  ProgressMeter -        chr9:36168943             13.8               1972000         143125.7
+02:59:19.745 INFO  ProgressMeter -        chr9:84269663             14.0               1995000         143009.0
+02:59:30.037 INFO  ProgressMeter -       chr9:104680038             14.1               2020000         143042.3
+02:59:40.564 INFO  ProgressMeter -       chr9:123393996             14.3               2044000         142965.6
+02:59:51.992 INFO  ProgressMeter -       chr9:133729566             14.5               2057000         141983.5
+03:00:02.008 INFO  ProgressMeter -        chr10:6311680             14.7               2073000         141457.8
+03:00:12.277 INFO  ProgressMeter -       chr10:23906022             14.8               2100000         141645.9
+03:00:22.334 INFO  ProgressMeter -       chr10:45475738             15.0               2125000         141729.8
+03:00:32.447 INFO  ProgressMeter -       chr10:61971753             15.2               2147000         141605.3
+03:00:43.198 INFO  ProgressMeter -       chr10:77486785             15.3               2167000         141255.0
+03:00:55.376 INFO  ProgressMeter -       chr10:95713006             15.5               2191000         140954.6
+03:01:05.498 INFO  ProgressMeter -      chr10:113629508             15.7               2212000         140777.7
+03:01:15.605 INFO  ProgressMeter -      chr10:129524146             15.9               2238000         140921.6
+03:01:26.151 INFO  ProgressMeter -        chr11:5079625             16.1               2252000         140250.9
+03:01:36.196 INFO  ProgressMeter -       chr11:16006157             16.2               2270000         139913.3
+03:01:46.503 INFO  ProgressMeter -       chr11:32700127             16.4               2297000         140094.0
+03:01:56.859 INFO  ProgressMeter -       chr11:48711423             16.6               2319000         139962.4
+03:02:08.761 INFO  ProgressMeter -       chr11:65454834             16.8               2332000         139082.0
+03:02:20.074 INFO  ProgressMeter -       chr11:74561213             17.0               2341000         138066.1
+03:02:30.244 INFO  ProgressMeter -       chr11:91426704             17.1               2363000         137984.2
+03:02:40.395 INFO  ProgressMeter -      chr11:106999247             17.3               2389000         138137.7
+03:02:50.515 INFO  ProgressMeter -      chr11:119644336             17.5               2406000         137777.0
+03:03:01.425 INFO  ProgressMeter -        chr12:1521871             17.6               2428000         137604.0
+03:03:11.690 INFO  ProgressMeter -       chr12:15073722             17.8               2442000         137068.4
+03:03:21.846 INFO  ProgressMeter -       chr12:31417008             18.0               2467000         137168.6
+03:03:32.382 INFO  ProgressMeter -       chr12:50567240             18.2               2491000         137163.7
+03:03:43.601 INFO  ProgressMeter -       chr12:57835594             18.3               2500000         136256.4
+03:03:53.903 INFO  ProgressMeter -       chr12:78576178             18.5               2527000         136451.0
+03:04:04.235 INFO  ProgressMeter -      chr12:100389834             18.7               2554000         136638.4
+03:04:14.304 INFO  ProgressMeter -      chr12:114772873             18.9               2572000         136377.0
+03:04:24.454 INFO  ProgressMeter -      chr12:129465158             19.0               2593000         136268.2
+03:04:34.825 INFO  ProgressMeter -       chr13:33001220             19.2               2621000         136499.8
+03:04:45.412 INFO  ProgressMeter -       chr13:52800489             19.4               2649000         136701.9
+03:04:55.494 INFO  ProgressMeter -       chr13:78426617             19.5               2688000         137521.9
+03:05:05.757 INFO  ProgressMeter -      chr13:102946703             19.7               2725000         138205.4
+03:05:16.222 INFO  ProgressMeter -       chr14:21915309             19.9               2746000         138049.4
+03:05:26.287 INFO  ProgressMeter -       chr14:34845357             20.1               2764000         137792.2
+03:05:36.360 INFO  ProgressMeter -       chr14:54152598             20.2               2794000         138131.6
+03:05:46.705 INFO  ProgressMeter -       chr14:72228385             20.4               2815000         137993.6
+03:05:57.015 INFO  ProgressMeter -       chr14:89772312             20.6               2839000         138007.6
+03:06:00.630 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000618863.1 for variant: chr14:94115784-94115793(TGGCCATGGC* -> T): Cannot yet handle indels starting outside an exon and ending within an exon.
+03:06:07.295 INFO  ProgressMeter -      chr14:103922837             20.7               2858000         137783.6
+03:06:17.573 INFO  ProgressMeter -       chr15:35537880             20.9               2877000         137563.6
+03:06:27.949 INFO  ProgressMeter -       chr15:48626081             21.1               2893000         137194.2
+03:06:38.008 INFO  ProgressMeter -       chr15:63469296             21.3               2917000         137241.2
+03:06:48.573 INFO  ProgressMeter -       chr15:77570268             21.4               2934000         136906.8
+03:06:58.750 INFO  ProgressMeter -       chr15:92963562             21.6               2954000         136757.7
+03:07:11.128 INFO  ProgressMeter -        chr16:3777552             21.8               2969000         136151.8
+03:07:21.917 INFO  ProgressMeter -       chr16:25022299             22.0               2981000         135584.0
+03:07:32.827 INFO  ProgressMeter -       chr16:58740255             22.2               2998000         135238.8
+03:07:44.151 INFO  ProgressMeter -       chr16:72603514             22.4               3012000         134723.3
+03:07:54.290 INFO  ProgressMeter -       chr16:85214251             22.5               3036000         134778.1
+03:08:04.565 INFO  ProgressMeter -        chr17:3678609             22.7               3050000         134378.0
+03:08:15.334 INFO  ProgressMeter -       chr17:10831504             22.9               3061000         133804.6
+03:08:26.038 INFO  ProgressMeter -       chr17:31642790             23.1               3075000         133376.4
+03:08:36.237 INFO  ProgressMeter -       chr17:42831380             23.2               3087000         132916.9
+03:08:46.364 INFO  ProgressMeter -       chr17:53990600             23.4               3099000         132470.9
+03:08:56.475 INFO  ProgressMeter -       chr17:71155057             23.6               3117000         132287.4
+03:09:07.081 INFO  ProgressMeter -       chr17:80239226             23.7               3131000         131892.1
+03:09:17.153 INFO  ProgressMeter -       chr18:22836662             23.9               3144000         131509.8
+03:09:27.665 INFO  ProgressMeter -       chr18:46145938             24.1               3174000         131798.8
+03:09:38.128 INFO  ProgressMeter -       chr18:63742991             24.3               3200000         131923.1
+03:09:50.006 INFO  ProgressMeter -        chr19:1654999             24.5               3231000         132122.8
+03:10:00.389 INFO  ProgressMeter -        chr19:8440448             24.6               3242000         131641.1
+03:10:10.444 INFO  ProgressMeter -       chr19:15158365             24.8               3250000         131074.0
+03:10:20.603 INFO  ProgressMeter -       chr19:27843174             25.0               3261000         130625.7
+03:10:30.974 INFO  ProgressMeter -       chr19:39591888             25.1               3276000         130324.2
+03:10:34.971 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000588797.5 for variant: chr19:43847014-43847020(GGGAGAT* -> G): Cannot yet handle indels starting outside an exon and ending within an exon.
+03:10:42.096 INFO  ProgressMeter -       chr19:48981045             25.3               3285000         129725.6
+03:10:52.410 INFO  ProgressMeter -       chr19:55027612             25.5               3294000         129203.9
+03:11:02.562 INFO  ProgressMeter -        chr20:6176865             25.7               3309000         128936.6
+03:11:12.728 INFO  ProgressMeter -       chr20:32448133             25.8               3337000         129174.8
+03:11:22.895 INFO  ProgressMeter -       chr20:45873295             26.0               3351000         128871.4
+03:11:33.423 INFO  ProgressMeter -       chr20:63251332             26.2               3375000         128924.4
+03:11:43.919 INFO  ProgressMeter -       chr21:33212981             26.4               3406000         129244.9
+03:11:54.440 INFO  ProgressMeter -       chr21:45628662             26.5               3425000         129106.8
+03:12:04.652 INFO  ProgressMeter -       chr22:27070880             26.7               3436000         128695.8
+03:12:15.207 INFO  ProgressMeter -       chr22:39324651             26.9               3451000         128411.5
+03:12:24.903 INFO  Funcotator - No variants filtered by: AllowAllVariantsVariantFilter
+03:12:24.904 INFO  ProgressMeter -       chr22:50622043             27.0               3466027         128199.7
+03:12:24.905 INFO  ProgressMeter - Traversal complete. Processed 3466027 total variants in 27.0 minutes.
+03:12:25.590 INFO  Funcotator - Shutting down engine
+[December 5, 2019 3:12:25 AM UTC] org.broadinstitute.hellbender.tools.funcotator.Funcotator done. Elapsed time: 28.19 minutes.
+Runtime.totalMemory()=2177892352
+Tool returned:
+true
+Using GATK jar /gatk/gatk-package-4.0.10.1-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /gatk/gatk-package-4.0.10.1-local.jar Funcotator -R ref/hg38-plus.fa -V vcf/han_mother.vcf -O out/han_mother_benchmark.vcf --data-sources-path funcotator_dataSources.v1.4.20180829s --ref-version hg38 -output-file-format VCF
+03:12:34.596 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/gatk/gatk-package-4.0.10.1-local.jar!/com/intel/gkl/native/libgkl_compression.so
+03:12:37.030 INFO  Funcotator - ------------------------------------------------------------
+03:12:37.032 INFO  Funcotator - The Genome Analysis Toolkit (GATK) v4.0.10.1-0.0.4
+03:12:37.033 INFO  Funcotator - For support and documentation go to https://software.broadinstitute.org/gatk/
+03:12:37.035 INFO  Funcotator - Executing as root@c703611a1c2e on Linux v4.9.60-linuxkit-aufs amd64
+03:12:37.036 INFO  Funcotator - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_181-8u181-b13-0ubuntu0.16.04.1-b13
+03:12:37.036 INFO  Funcotator - Start Date/Time: December 5, 2019 3:12:34 AM UTC
+03:12:37.038 INFO  Funcotator - ------------------------------------------------------------
+03:12:37.038 INFO  Funcotator - ------------------------------------------------------------
+03:12:37.040 INFO  Funcotator - HTSJDK Version: 2.16.1
+03:12:37.040 INFO  Funcotator - Picard Version: 2.18.13
+03:12:37.041 INFO  Funcotator - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+03:12:37.041 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+03:12:37.042 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+03:12:37.042 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+03:12:37.042 INFO  Funcotator - Deflater: IntelDeflater
+03:12:37.043 INFO  Funcotator - Inflater: IntelInflater
+03:12:37.044 INFO  Funcotator - GCS max retries/reopens: 20
+03:12:37.045 INFO  Funcotator - Requester pays: disabled
+03:12:37.045 WARN  Funcotator - 
+
+[1m[31m   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+   Warning: Funcotator is a BETA tool and is not yet ready for use in production
+
+   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+
+
+03:12:37.046 INFO  Funcotator - Initializing engine
+03:12:55.889 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/vcf/han_mother.vcf
+03:12:55.963 INFO  Funcotator - Done initializing engine
+log4j:WARN No appenders could be found for logger (org.broadinstitute.hellbender.tools.funcotator.dataSources.DataSourceUtils).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+03:13:08.289 INFO  FeatureManager - Using codec GencodeGtfCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/gencode/hg38/gencode.v27.chr_patch_hapl_scaff.annotation.REORDERED.gtf
+03:13:26.249 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/lmm_known/hg38/LMM_Path_LP_VUS5-variants-6-12-18.sorted_liftover_b38.corrected.vcf
+03:13:26.286 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/lmm_known/hg38/LMM_Path_LP_VUS5-variants-6-12-18.sorted_liftover_b38.corrected.vcf
+03:13:27.867 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/clinvar/hg38/clinvar_20180429_hg38.vcf
+03:13:28.460 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/clinvar/hg38/clinvar_20180429_hg38.vcf
+03:13:44.037 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/exac/hg38/ExAC.r1.sites.liftover.b38.corrected.vcf.gz
+03:13:44.484 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/exac/hg38/ExAC.r1.sites.liftover.b38.corrected.vcf.gz
+03:13:44.583 INFO  Funcotator - Creating a VCF file for output: file:/funcotator/funcotator/out/han_mother_benchmark.vcf
+03:13:44.627 INFO  ProgressMeter - Starting traversal
+03:13:44.628 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+03:13:54.654 INFO  ProgressMeter -         chr1:7210478              0.2                  9000          53860.0
+03:14:04.989 INFO  ProgressMeter -        chr1:20963460              0.3                 27000          79563.9
+03:14:15.197 INFO  ProgressMeter -        chr1:34109902              0.5                 43000          84402.0
+03:14:25.392 INFO  ProgressMeter -        chr1:47165253              0.7                 58000          85369.4
+03:14:35.637 INFO  ProgressMeter -        chr1:66614592              0.9                 83000          97629.8
+03:14:45.718 INFO  ProgressMeter -        chr1:88571976              1.0                112000         110001.6
+03:14:56.500 INFO  ProgressMeter -       chr1:109895924              1.2                143000         119378.9
+03:15:07.568 INFO  ProgressMeter -       chr1:152336951              1.4                160000         115747.7
+03:15:18.698 INFO  ProgressMeter -       chr1:161977595              1.6                172000         109706.7
+03:15:28.729 INFO  ProgressMeter -       chr1:181666721              1.7                198000         114119.9
+03:15:39.007 INFO  ProgressMeter -       chr1:203447978              1.9                228000         119602.4
+03:15:49.142 INFO  ProgressMeter -       chr1:221307480              2.1                251000         120950.3
+03:15:59.180 INFO  ProgressMeter -       chr1:237851180              2.2                274000         122183.2
+03:16:09.196 INFO  ProgressMeter -        chr2:18406521              2.4                303000         125754.0
+03:16:19.285 INFO  ProgressMeter -        chr2:34859598              2.6                325000         126085.5
+03:16:29.593 INFO  ProgressMeter -        chr2:51181849              2.7                350000         127299.7
+03:16:39.905 INFO  ProgressMeter -        chr2:71872310              2.9                377000         129052.9
+03:16:50.414 INFO  ProgressMeter -        chr2:99114726              3.1                397000         128212.0
+03:17:00.451 INFO  ProgressMeter -       chr2:122460432              3.3                425000         130219.6
+03:17:10.508 INFO  ProgressMeter -       chr2:148539193              3.4                458000         133475.8
+03:17:20.668 INFO  ProgressMeter -       chr2:167212534              3.6                483000         134141.8
+03:17:31.103 INFO  ProgressMeter -       chr2:178983385              3.8                500000         132465.0
+03:17:41.122 INFO  ProgressMeter -       chr2:200609924              3.9                529000         134210.6
+03:17:53.550 INFO  ProgressMeter -       chr2:219424929              4.1                553000         133294.8
+03:18:03.672 INFO  ProgressMeter -       chr2:236795361              4.3                577000         133645.2
+03:18:14.147 INFO  ProgressMeter -         chr3:9756456              4.5                603000         134239.1
+03:18:24.489 INFO  ProgressMeter -        chr3:30032491              4.7                629000         134852.7
+03:18:36.907 INFO  ProgressMeter -        chr3:48890799              4.9                651000         133639.9
+03:18:47.156 INFO  ProgressMeter -        chr3:59501902              5.0                662000         131293.6
+03:18:57.222 INFO  ProgressMeter -        chr3:81481254              5.2                694000         133207.9
+03:19:07.545 INFO  ProgressMeter -       chr3:112288648              5.4                729000         135452.8
+03:19:17.744 INFO  ProgressMeter -       chr3:129861179              5.6                751000         135268.2
+03:19:28.068 INFO  ProgressMeter -       chr3:150939576              5.7                778000         135918.9
+03:19:38.303 INFO  ProgressMeter -       chr3:173612712              5.9                807000         136905.4
+03:19:48.512 INFO  ProgressMeter -       chr3:190178614              6.1                829000         136691.9
+03:19:58.648 INFO  ProgressMeter -         chr4:8251744              6.2                845000         135554.2
+03:20:08.846 INFO  ProgressMeter -        chr4:33376055              6.4                881000         137578.1
+03:20:19.055 INFO  ProgressMeter -        chr4:68460883              6.6                911000         138580.8
+03:20:29.923 INFO  ProgressMeter -        chr4:86947701              6.8                937000         138714.1
+03:20:40.344 INFO  ProgressMeter -       chr4:109626768              6.9                965000         139277.8
+03:20:50.413 INFO  ProgressMeter -       chr4:128896338              7.1                994000         140070.7
+03:21:00.831 INFO  ProgressMeter -       chr4:154827579              7.3               1029000         141539.6
+03:21:10.994 INFO  ProgressMeter -       chr4:176948723              7.4               1064000         143021.6
+03:21:21.063 INFO  ProgressMeter -         chr5:5027033              7.6               1098000         144336.3
+03:21:31.112 INFO  ProgressMeter -        chr5:26045847              7.8               1132000         145599.8
+03:21:41.217 INFO  ProgressMeter -        chr5:50566165              7.9               1160000         146037.8
+03:21:51.230 INFO  ProgressMeter -        chr5:75081136              8.1               1186000         146238.9
+03:22:01.358 INFO  ProgressMeter -        chr5:99326936              8.3               1213000         146518.2
+03:22:11.370 INFO  ProgressMeter -       chr5:125571958              8.4               1246000         147531.0
+03:22:23.200 INFO  ProgressMeter -       chr5:143192585              8.6               1264000         146247.8
+03:22:33.262 INFO  ProgressMeter -       chr5:168865734              8.8               1288000         146188.1
+03:22:43.443 INFO  ProgressMeter -         chr6:3352271              9.0               1310000         145875.7
+03:22:53.445 INFO  ProgressMeter -        chr6:23763070              9.1               1342000         146715.8
+03:23:03.536 INFO  ProgressMeter -        chr6:32711568              9.3               1354000         145355.1
+03:23:13.877 INFO  ProgressMeter -        chr6:44117224              9.5               1370000         144400.8
+03:23:24.022 INFO  ProgressMeter -        chr6:66819898              9.7               1400000         144979.1
+03:23:34.247 INFO  ProgressMeter -        chr6:88779531              9.8               1433000         145823.0
+03:23:44.557 INFO  ProgressMeter -       chr6:112108584             10.0               1464000         146417.3
+03:23:54.975 INFO  ProgressMeter -       chr6:134234753             10.2               1493000         146769.0
+03:24:05.049 INFO  ProgressMeter -       chr6:152853204             10.3               1517000         146706.8
+03:24:15.185 INFO  ProgressMeter -       chr6:169702408             10.5               1546000         147108.0
+03:24:25.300 INFO  ProgressMeter -        chr7:14126851             10.7               1571000         147126.8
+03:24:35.336 INFO  ProgressMeter -        chr7:32184885             10.8               1599000         147439.4
+03:24:45.554 INFO  ProgressMeter -        chr7:50795954             11.0               1625000         147520.3
+03:24:55.697 INFO  ProgressMeter -        chr7:80428848             11.2               1650000         147525.8
+03:25:08.223 INFO  ProgressMeter -       chr7:101432006             11.4               1674000         146929.1
+03:25:18.438 INFO  ProgressMeter -       chr7:121541964             11.6               1697000         146755.1
+03:25:28.980 INFO  ProgressMeter -       chr7:142053543             11.7               1723000         146773.2
+03:25:39.117 INFO  ProgressMeter -       chr7:156924479             11.9               1744000         146454.3
+03:25:49.145 INFO  ProgressMeter -        chr8:17282869             12.1               1772000         146746.0
+03:25:59.222 INFO  ProgressMeter -        chr8:31230143             12.2               1793000         146448.2
+03:26:09.348 INFO  ProgressMeter -        chr8:55631819             12.4               1820000         146632.3
+03:26:19.542 INFO  ProgressMeter -        chr8:82324084             12.6               1851000         147116.1
+03:26:29.788 INFO  ProgressMeter -       chr8:106432644             12.8               1878000         147263.3
+03:26:39.957 INFO  ProgressMeter -       chr8:130669163             12.9               1910000         147808.2
+03:26:49.989 INFO  ProgressMeter -       chr8:144332849             13.1               1932000         147600.9
+03:27:00.089 INFO  ProgressMeter -         chr9:9794490             13.3               1951000         147159.9
+03:27:10.241 INFO  ProgressMeter -        chr9:27264123             13.4               1979000         147391.1
+03:27:20.798 INFO  ProgressMeter -        chr9:72196256             13.6               2000000         147028.2
+03:27:30.870 INFO  ProgressMeter -        chr9:93650910             13.8               2026000         147124.1
+03:27:40.984 INFO  ProgressMeter -       chr9:112352710             13.9               2051000         147138.3
+03:27:51.743 INFO  ProgressMeter -       chr9:128636357             14.1               2072000         146756.9
+03:28:02.852 INFO  ProgressMeter -       chr9:137207593             14.3               2084000         145696.2
+03:28:13.304 INFO  ProgressMeter -       chr10:15429980             14.5               2110000         145739.0
+03:28:23.358 INFO  ProgressMeter -       chr10:33835000             14.6               2135000         145778.6
+03:28:33.597 INFO  ProgressMeter -       chr10:56077403             14.8               2158000         145651.9
+03:28:44.029 INFO  ProgressMeter -       chr10:74221570             15.0               2186000         145830.4
+03:28:54.356 INFO  ProgressMeter -       chr10:91568730             15.2               2208000         145626.1
+03:29:04.502 INFO  ProgressMeter -      chr10:107446508             15.3               2225000         145128.6
+03:29:14.766 INFO  ProgressMeter -      chr10:124913586             15.5               2250000         145139.8
+03:29:25.434 INFO  ProgressMeter -        chr11:2858279             15.7               2268000         144641.9
+03:29:35.687 INFO  ProgressMeter -       chr11:13757743             15.9               2286000         144218.2
+03:29:45.939 INFO  ProgressMeter -       chr11:29384559             16.0               2312000         144302.9
+03:29:56.730 INFO  ProgressMeter -       chr11:47421409             16.2               2337000         144244.1
+03:30:09.200 INFO  ProgressMeter -       chr11:64373265             16.4               2352000         143331.3
+03:30:19.668 INFO  ProgressMeter -       chr11:71513938             16.6               2360000         142305.8
+03:30:29.772 INFO  ProgressMeter -       chr11:86443475             16.8               2377000         141890.1
+03:30:40.055 INFO  ProgressMeter -      chr11:104567220             16.9               2405000         142107.7
+03:30:50.930 INFO  ProgressMeter -      chr11:119483490             17.1               2425000         141771.1
+03:31:01.318 INFO  ProgressMeter -         chr12:740456             17.3               2446000         141565.9
+03:31:11.389 INFO  ProgressMeter -       chr12:16070946             17.4               2462000         141121.0
+03:31:21.645 INFO  ProgressMeter -       chr12:32900656             17.6               2489000         141284.4
+03:31:31.825 INFO  ProgressMeter -       chr12:51625375             17.8               2510000         141117.3
+03:31:42.335 INFO  ProgressMeter -       chr12:58425189             18.0               2518000         140186.5
+03:31:52.821 INFO  ProgressMeter -       chr12:80373782             18.1               2546000         140380.3
+03:32:02.826 INFO  ProgressMeter -      chr12:101937394             18.3               2574000         140630.5
+03:32:12.829 INFO  ProgressMeter -      chr12:116680685             18.5               2593000         140389.7
+03:32:23.041 INFO  ProgressMeter -      chr12:129592228             18.6               2612000         140127.1
+03:32:33.182 INFO  ProgressMeter -       chr13:33107030             18.8               2640000         140356.6
+03:32:43.373 INFO  ProgressMeter -       chr13:53901379             19.0               2668000         140575.8
+03:32:53.440 INFO  ProgressMeter -       chr13:81466102             19.1               2706000         141328.6
+03:33:03.451 INFO  ProgressMeter -      chr13:105158793             19.3               2742000         141971.6
+03:33:15.866 INFO  ProgressMeter -       chr14:24246825             19.5               2763000         141542.5
+03:33:26.047 INFO  ProgressMeter -       chr14:42622537             19.7               2791000         141744.8
+03:33:36.328 INFO  ProgressMeter -       chr14:62156460             19.9               2818000         141881.3
+03:33:46.649 INFO  ProgressMeter -       chr14:77310158             20.0               2837000         141611.5
+03:33:57.093 INFO  ProgressMeter -       chr14:94582747             20.2               2862000         141628.8
+03:34:07.414 INFO  ProgressMeter -       chr15:25822054             20.4               2881000         141365.7
+03:34:18.091 INFO  ProgressMeter -       chr15:42868307             20.6               2902000         141163.5
+03:34:28.224 INFO  ProgressMeter -       chr15:58425033             20.7               2922000         140978.3
+03:34:38.518 INFO  ProgressMeter -       chr15:74004328             20.9               2943000         140825.8
+03:34:48.661 INFO  ProgressMeter -       chr15:88670341             21.1               2960000         140502.7
+03:35:03.832 INFO  ProgressMeter -        chr16:1808948             21.3               2981000         139821.3
+03:35:14.453 INFO  ProgressMeter -       chr16:11658653             21.5               2988000         138995.6
+03:35:24.586 INFO  ProgressMeter -       chr16:54863314             21.7               3004000         138650.6
+03:35:34.707 INFO  ProgressMeter -       chr16:67856492             21.8               3020000         138312.3
+03:35:44.941 INFO  ProgressMeter -       chr16:78865419             22.0               3035000         137921.8
+03:35:55.325 INFO  ProgressMeter -       chr16:89496854             22.2               3058000         137883.1
+03:36:05.872 INFO  ProgressMeter -        chr17:7490197             22.4               3070000         137335.2
+03:36:16.237 INFO  ProgressMeter -       chr17:19813125             22.5               3086000         136992.3
+03:36:27.004 INFO  ProgressMeter -       chr17:39914536             22.7               3100000         136526.2
+03:36:37.625 INFO  ProgressMeter -       chr17:50018976             22.9               3109000         135863.4
+03:36:47.645 INFO  ProgressMeter -       chr17:66033051             23.1               3126000         135616.6
+03:36:58.232 INFO  ProgressMeter -       chr17:78228936             23.2               3142000         135275.3
+03:37:08.234 INFO  ProgressMeter -       chr18:10273433             23.4               3155000         134866.9
+03:37:18.444 INFO  ProgressMeter -       chr18:39875328             23.6               3180000         134953.9
+03:37:28.492 INFO  ProgressMeter -       chr18:59988645             23.7               3208000         135181.4
+03:37:38.919 INFO  ProgressMeter -       chr18:79530026             23.9               3241000         135579.2
+03:37:48.923 INFO  ProgressMeter -        chr19:5789002             24.1               3251000         135055.5
+03:37:59.331 INFO  ProgressMeter -       chr19:12900995             24.2               3260000         134460.4
+03:38:09.480 INFO  ProgressMeter -       chr19:21586097             24.4               3270000         133938.4
+03:38:19.758 INFO  ProgressMeter -       chr19:38695973             24.6               3288000         133737.4
+03:38:25.326 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000588797.5 for variant: chr19:43847014-43847020(GGGAGAT* -> G): Cannot yet handle indels starting outside an exon and ending within an exon.
+03:38:30.283 INFO  ProgressMeter -       chr19:47747157             24.8               3298000         133193.8
+03:38:41.089 INFO  ProgressMeter -       chr19:54471790             24.9               3308000         132632.9
+03:38:51.158 INFO  ProgressMeter -        chr20:4397296             25.1               3321000         132264.2
+03:39:01.225 INFO  ProgressMeter -       chr20:24214463             25.3               3349000         132494.0
+03:39:11.589 INFO  ProgressMeter -       chr20:45751708             25.4               3366000         132262.7
+03:39:21.880 INFO  ProgressMeter -       chr20:58792024             25.6               3385000         132119.0
+03:39:31.882 INFO  ProgressMeter -       chr21:25514770             25.8               3413000         132350.6
+03:39:42.144 INFO  ProgressMeter -       chr21:41426138             26.0               3437000         132403.1
+03:39:52.671 INFO  ProgressMeter -       chr22:23589494             26.1               3450000         132011.7
+03:40:03.602 INFO  ProgressMeter -       chr22:38243308             26.3               3468000         131781.8
+03:40:14.371 INFO  Funcotator - No variants filtered by: AllowAllVariantsVariantFilter
+03:40:14.371 INFO  ProgressMeter -       chr22:50108439             26.5               3486270         131578.6
+03:40:14.379 INFO  ProgressMeter - Traversal complete. Processed 3486270 total variants in 26.5 minutes.
+03:40:15.560 INFO  Funcotator - Shutting down engine
+[December 5, 2019 3:40:15 AM UTC] org.broadinstitute.hellbender.tools.funcotator.Funcotator done. Elapsed time: 27.68 minutes.
+Runtime.totalMemory()=2112880640
+Tool returned:
+true
+Using GATK jar /gatk/gatk-package-4.0.10.1-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /gatk/gatk-package-4.0.10.1-local.jar Funcotator -R ref/hg38-plus.fa -V vcf/han_son.vcf -O out/han_son_benchmark.vcf --data-sources-path funcotator_dataSources.v1.4.20180829s --ref-version hg38 -output-file-format VCF
+03:40:26.707 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/gatk/gatk-package-4.0.10.1-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Dec 05, 2019 3:40:28 AM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+WARNING: Failed to detect whether we are running on Google Compute Engine.
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at shaded.cloud_nio.com.google.api.client.http.javanet.NetHttpRequest.execute(NetHttpRequest.java:104)
+	at shaded.cloud_nio.com.google.api.client.http.HttpRequest.execute(HttpRequest.java:981)
+	at shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials.runningOnComputeEngine(ComputeEngineCredentials.java:210)
+	at shaded.cloud_nio.com.google.auth.oauth2.DefaultCredentialsProvider.tryGetComputeCredentials(DefaultCredentialsProvider.java:290)
+	at shaded.cloud_nio.com.google.auth.oauth2.DefaultCredentialsProvider.getDefaultCredentialsUnsynchronized(DefaultCredentialsProvider.java:207)
+	at shaded.cloud_nio.com.google.auth.oauth2.DefaultCredentialsProvider.getDefaultCredentials(DefaultCredentialsProvider.java:124)
+	at shaded.cloud_nio.com.google.auth.oauth2.GoogleCredentials.getApplicationDefault(GoogleCredentials.java:127)
+	at shaded.cloud_nio.com.google.auth.oauth2.GoogleCredentials.getApplicationDefault(GoogleCredentials.java:100)
+	at com.google.cloud.ServiceOptions.defaultCredentials(ServiceOptions.java:304)
+	at com.google.cloud.ServiceOptions.<init>(ServiceOptions.java:278)
+	at com.google.cloud.storage.StorageOptions.<init>(StorageOptions.java:83)
+	at com.google.cloud.storage.StorageOptions.<init>(StorageOptions.java:31)
+	at com.google.cloud.storage.StorageOptions$Builder.build(StorageOptions.java:78)
+	at org.broadinstitute.hellbender.utils.gcs.BucketUtils.setGlobalNIODefaultOptions(BucketUtils.java:360)
+	at org.broadinstitute.hellbender.cmdline.CommandLineProgram.instanceMainPostParseArgs(CommandLineProgram.java:183)
+	at org.broadinstitute.hellbender.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:211)
+	at org.broadinstitute.hellbender.Main.runCommandLineProgram(Main.java:160)
+	at org.broadinstitute.hellbender.Main.mainEntry(Main.java:203)
+	at org.broadinstitute.hellbender.Main.main(Main.java:289)
+
+03:40:28.329 INFO  Funcotator - ------------------------------------------------------------
+03:40:28.330 INFO  Funcotator - The Genome Analysis Toolkit (GATK) v4.0.10.1-0.0.4
+03:40:28.331 INFO  Funcotator - For support and documentation go to https://software.broadinstitute.org/gatk/
+03:40:28.332 INFO  Funcotator - Executing as root@c703611a1c2e on Linux v4.9.60-linuxkit-aufs amd64
+03:40:28.333 INFO  Funcotator - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_181-8u181-b13-0ubuntu0.16.04.1-b13
+03:40:28.334 INFO  Funcotator - Start Date/Time: December 5, 2019 3:40:26 AM UTC
+03:40:28.337 INFO  Funcotator - ------------------------------------------------------------
+03:40:28.337 INFO  Funcotator - ------------------------------------------------------------
+03:40:28.337 INFO  Funcotator - HTSJDK Version: 2.16.1
+03:40:28.337 INFO  Funcotator - Picard Version: 2.18.13
+03:40:28.338 INFO  Funcotator - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+03:40:28.338 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+03:40:28.338 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+03:40:28.339 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+03:40:28.343 INFO  Funcotator - Deflater: IntelDeflater
+03:40:28.343 INFO  Funcotator - Inflater: IntelInflater
+03:40:28.343 INFO  Funcotator - GCS max retries/reopens: 20
+03:40:28.343 INFO  Funcotator - Requester pays: disabled
+03:40:28.344 WARN  Funcotator - 
+
+[1m[31m   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+   Warning: Funcotator is a BETA tool and is not yet ready for use in production
+
+   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+
+
+03:40:28.344 INFO  Funcotator - Initializing engine
+03:40:50.840 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/vcf/han_son.vcf
+03:40:50.955 INFO  Funcotator - Done initializing engine
+log4j:WARN No appenders could be found for logger (org.broadinstitute.hellbender.tools.funcotator.dataSources.DataSourceUtils).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+03:41:03.194 INFO  FeatureManager - Using codec GencodeGtfCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/gencode/hg38/gencode.v27.chr_patch_hapl_scaff.annotation.REORDERED.gtf
+03:41:21.731 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/lmm_known/hg38/LMM_Path_LP_VUS5-variants-6-12-18.sorted_liftover_b38.corrected.vcf
+03:41:21.785 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/lmm_known/hg38/LMM_Path_LP_VUS5-variants-6-12-18.sorted_liftover_b38.corrected.vcf
+03:41:23.283 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/clinvar/hg38/clinvar_20180429_hg38.vcf
+03:41:23.563 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/clinvar/hg38/clinvar_20180429_hg38.vcf
+03:41:38.203 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/exac/hg38/ExAC.r1.sites.liftover.b38.corrected.vcf.gz
+03:41:38.857 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/exac/hg38/ExAC.r1.sites.liftover.b38.corrected.vcf.gz
+03:41:38.956 INFO  Funcotator - Creating a VCF file for output: file:/funcotator/funcotator/out/han_son_benchmark.vcf
+03:41:38.996 INFO  ProgressMeter - Starting traversal
+03:41:38.997 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+03:41:49.032 INFO  ProgressMeter -         chr1:7095341              0.2                  9000          53817.0
+03:41:59.364 INFO  ProgressMeter -        chr1:21263662              0.3                 26000          76594.5
+03:42:09.543 INFO  ProgressMeter -        chr1:34535199              0.5                 42000          82498.5
+03:42:21.163 INFO  ProgressMeter -        chr1:45854336              0.7                 54000          76839.2
+03:42:31.494 INFO  ProgressMeter -        chr1:63942751              0.9                 76000          86862.1
+03:42:41.911 INFO  ProgressMeter -        chr1:85860315              1.0                106000         101090.4
+03:42:51.975 INFO  ProgressMeter -       chr1:108009256              1.2                137000         112636.7
+03:43:02.482 INFO  ProgressMeter -       chr1:151270809              1.4                154000         110679.9
+03:43:12.866 INFO  ProgressMeter -       chr1:160590077              1.6                166000         106105.3
+03:43:23.193 INFO  ProgressMeter -       chr1:179436421              1.7                191000         109985.0
+03:43:33.657 INFO  ProgressMeter -       chr1:202217148              1.9                223000         116692.8
+03:43:43.659 INFO  ProgressMeter -       chr1:219468767              2.1                246000         118400.2
+03:43:53.766 INFO  ProgressMeter -       chr1:236454900              2.2                269000         119760.5
+03:44:03.789 INFO  ProgressMeter -        chr2:24369935              2.4                299000         123901.9
+03:44:13.811 INFO  ProgressMeter -        chr2:38959198              2.6                319000         123632.2
+03:44:24.166 INFO  ProgressMeter -        chr2:56332444              2.8                346000         125689.4
+03:44:34.337 INFO  ProgressMeter -        chr2:75556155              2.9                369000         126269.0
+03:44:44.640 INFO  ProgressMeter -       chr2:105520369              3.1                394000         127341.2
+03:44:54.772 INFO  ProgressMeter -       chr2:129525311              3.3                426000         130558.0
+03:45:04.818 INFO  ProgressMeter -       chr2:153591136              3.4                456000         132931.0
+03:45:15.061 INFO  ProgressMeter -       chr2:173611674              3.6                483000         134126.9
+03:45:25.337 INFO  ProgressMeter -       chr2:187562964              3.8                501000         132809.0
+03:45:35.571 INFO  ProgressMeter -       chr2:208335670              3.9                526000         133404.9
+03:45:45.601 INFO  ProgressMeter -       chr2:224082453              4.1                548000         133331.2
+03:45:56.285 INFO  ProgressMeter -       chr2:241088991              4.3                572000         133391.4
+03:46:06.288 INFO  ProgressMeter -        chr3:13379956              4.5                595000         133562.3
+03:46:16.388 INFO  ProgressMeter -        chr3:35441150              4.6                625000         135188.2
+03:46:26.397 INFO  ProgressMeter -        chr3:49043814              4.8                641000         133820.5
+03:46:36.873 INFO  ProgressMeter -        chr3:58868108              5.0                652000         131329.8
+03:46:47.018 INFO  ProgressMeter -        chr3:82760723              5.1                686000         133627.3
+03:46:57.061 INFO  ProgressMeter -       chr3:112538746              5.3                721000         136010.4
+03:47:07.344 INFO  ProgressMeter -       chr3:129763207              5.5                743000         135771.0
+03:47:17.481 INFO  ProgressMeter -       chr3:151062321              5.6                770000         136490.9
+03:47:27.493 INFO  ProgressMeter -       chr3:172663987              5.8                799000         137562.6
+03:47:37.687 INFO  ProgressMeter -       chr3:191793346              6.0                824000         137835.3
+03:47:47.703 INFO  ProgressMeter -        chr4:19605472              6.1                850000         138321.6
+03:47:57.817 INFO  ProgressMeter -        chr4:70210917              6.3                888000         140647.3
+03:48:08.094 INFO  ProgressMeter -        chr4:87054833              6.5                913000         140787.5
+03:48:18.315 INFO  ProgressMeter -       chr4:111085727              6.7                942000         141541.3
+03:48:28.536 INFO  ProgressMeter -       chr4:136757026              6.8                979000         143429.6
+03:48:38.710 INFO  ProgressMeter -       chr4:161470385              7.0               1011000         144527.3
+03:48:48.834 INFO  ProgressMeter -       chr4:183377615              7.2               1050000         146567.2
+03:48:58.892 INFO  ProgressMeter -        chr5:12740947              7.3               1083000         147717.1
+03:49:09.352 INFO  ProgressMeter -        chr5:37514787              7.5               1120000         149215.6
+03:49:19.505 INFO  ProgressMeter -        chr5:67602722              7.7               1149000         149704.6
+03:49:29.651 INFO  ProgressMeter -        chr5:92218453              7.8               1177000         150046.5
+03:49:39.680 INFO  ProgressMeter -       chr5:118658611              8.0               1209000         150910.3
+03:49:50.133 INFO  ProgressMeter -       chr5:156256462              8.2               1235000         150874.7
+03:50:00.837 INFO  ProgressMeter -       chr5:178386213              8.4               1263000         151004.3
+03:50:10.863 INFO  ProgressMeter -        chr6:13793812              8.5               1290000         151211.4
+03:50:21.074 INFO  ProgressMeter -        chr6:31740370              8.7               1314000         151012.2
+03:50:31.580 INFO  ProgressMeter -        chr6:42087972              8.9               1331000         149948.5
+03:50:41.796 INFO  ProgressMeter -        chr6:63828222              9.0               1356000         149889.7
+03:50:51.938 INFO  ProgressMeter -        chr6:85222518              9.2               1390000         150829.8
+03:51:02.044 INFO  ProgressMeter -       chr6:110371157              9.4               1423000         151639.2
+03:51:12.316 INFO  ProgressMeter -       chr6:133211812              9.6               1452000         151957.3
+03:51:22.395 INFO  ProgressMeter -       chr6:152940506              9.7               1477000         151903.2
+03:51:32.758 INFO  ProgressMeter -          chr7:757868              9.9               1507000         152283.5
+03:51:42.985 INFO  ProgressMeter -        chr7:16808154             10.1               1534000         152387.1
+03:51:53.378 INFO  ProgressMeter -        chr7:36707506             10.2               1562000         152543.8
+03:52:03.465 INFO  ProgressMeter -        chr7:57440673             10.4               1590000         152770.0
+03:52:13.501 INFO  ProgressMeter -        chr7:88816925             10.6               1617000         152906.8
+03:52:24.128 INFO  ProgressMeter -       chr7:103054157             10.8               1632000         151783.1
+03:52:34.359 INFO  ProgressMeter -       chr7:124347994             10.9               1657000         151702.4
+03:52:45.046 INFO  ProgressMeter -       chr7:144124402             11.1               1682000         151520.4
+03:52:55.182 INFO  ProgressMeter -        chr8:13350952             11.3               1706000         151378.7
+03:53:05.463 INFO  ProgressMeter -        chr8:26949119             11.4               1733000         151471.4
+03:53:15.744 INFO  ProgressMeter -        chr8:49213091             11.6               1756000         151217.0
+03:53:25.817 INFO  ProgressMeter -        chr8:73011821             11.8               1786000         151608.6
+03:53:35.964 INFO  ProgressMeter -        chr8:99687576             11.9               1816000         151973.5
+03:53:46.075 INFO  ProgressMeter -       chr8:124238827             12.1               1846000         152335.8
+03:53:56.325 INFO  ProgressMeter -       chr8:143610360             12.3               1875000         152578.0
+03:54:06.437 INFO  ProgressMeter -         chr9:7512409             12.5               1890000         151717.9
+03:54:16.700 INFO  ProgressMeter -        chr9:27462591             12.6               1923000         152276.0
+03:54:26.812 INFO  ProgressMeter -        chr9:70810767             12.8               1943000         151833.4
+03:54:36.859 INFO  ProgressMeter -        chr9:92559738             13.0               1968000         151800.9
+03:54:47.106 INFO  ProgressMeter -       chr9:110471440             13.1               1991000         151578.0
+03:54:57.115 INFO  ProgressMeter -       chr9:126661130             13.3               2011000         151180.7
+03:55:07.398 INFO  ProgressMeter -       chr9:135571261             13.5               2023000         150148.3
+03:55:17.688 INFO  ProgressMeter -        chr10:9477399             13.6               2041000         149580.2
+03:55:27.970 INFO  ProgressMeter -       chr10:28072932             13.8               2068000         149679.2
+03:55:38.115 INFO  ProgressMeter -       chr10:51944668             14.0               2092000         149585.6
+03:55:48.544 INFO  ProgressMeter -       chr10:69963885             14.2               2121000         149797.5
+03:55:58.794 INFO  ProgressMeter -       chr10:86156052             14.3               2140000         149337.6
+03:56:08.830 INFO  ProgressMeter -      chr10:102464106             14.5               2158000         148856.2
+03:56:19.308 INFO  ProgressMeter -      chr10:121677263             14.7               2185000         148924.8
+03:56:31.518 INFO  ProgressMeter -        chr11:1215737             14.9               2206000         148299.2
+03:56:41.606 INFO  ProgressMeter -       chr11:10456681             15.0               2221000         147638.8
+03:56:51.746 INFO  ProgressMeter -       chr11:23480451             15.2               2244000         147510.6
+03:57:02.099 INFO  ProgressMeter -       chr11:44006986             15.4               2274000         147806.0
+03:57:12.134 INFO  ProgressMeter -       chr11:58970955             15.6               2286000         146988.1
+03:57:22.930 INFO  ProgressMeter -       chr11:66330422             15.7               2294000         145815.4
+03:57:33.065 INFO  ProgressMeter -       chr11:76540772             15.9               2304000         144895.3
+03:57:43.138 INFO  ProgressMeter -       chr11:95372859             16.1               2328000         144875.1
+03:57:54.009 INFO  ProgressMeter -      chr11:113635829             16.3               2356000         144982.8
+03:58:04.334 INFO  ProgressMeter -      chr11:125907355             16.4               2374000         144559.7
+03:58:14.423 INFO  ProgressMeter -       chr12:14235584             16.6               2395000         144360.3
+03:58:24.573 INFO  ProgressMeter -       chr12:32213277             16.8               2422000         144514.2
+03:58:35.927 INFO  ProgressMeter -       chr12:50427555             16.9               2442000         144080.9
+03:58:46.569 INFO  ProgressMeter -       chr12:58289836             17.1               2451000         143114.1
+03:58:56.883 INFO  ProgressMeter -       chr12:79947795             17.3               2478000         143252.9
+03:59:07.787 INFO  ProgressMeter -      chr12:102260794             17.5               2508000         143480.0
+03:59:17.791 INFO  ProgressMeter -      chr12:118477081             17.6               2528000         143257.3
+03:59:28.134 INFO  ProgressMeter -       chr13:19267019             17.8               2550000         143106.1
+03:59:38.443 INFO  ProgressMeter -       chr13:38013279             18.0               2579000         143351.3
+03:59:48.749 INFO  ProgressMeter -       chr13:60266054             18.2               2609000         143647.4
+03:59:58.845 INFO  ProgressMeter -       chr13:87901523             18.3               2649000         144510.9
+04:00:09.198 INFO  ProgressMeter -      chr13:111424321             18.5               2684000         145054.9
+04:00:19.391 INFO  ProgressMeter -       chr14:24436342             18.7               2694000         144270.7
+04:00:29.399 INFO  ProgressMeter -       chr14:44037508             18.8               2723000         144532.7
+04:00:39.453 INFO  ProgressMeter -       chr14:62713486             19.0               2751000         144731.6
+04:00:49.829 INFO  ProgressMeter -       chr14:77067001             19.2               2768000         144313.0
+04:01:00.070 INFO  ProgressMeter -       chr14:95243310             19.4               2794000         144383.7
+04:01:10.204 INFO  ProgressMeter -       chr15:26750861             19.5               2813000         144107.7
+04:01:21.668 INFO  ProgressMeter -       chr15:44771850             19.7               2832000         143674.9
+04:01:31.945 INFO  ProgressMeter -       chr15:60059995             19.9               2855000         143593.9
+04:01:42.006 INFO  ProgressMeter -       chr15:75211473             20.1               2874000         143340.6
+04:01:52.186 INFO  ProgressMeter -       chr15:90554169             20.2               2892000         143028.0
+04:02:02.247 INFO  ProgressMeter -       chr16:54053887             20.4               2918000         143126.9
+04:02:14.041 INFO  ProgressMeter -       chr16:68463552             20.6               2936000         142634.6
+04:02:24.374 INFO  ProgressMeter -       chr16:81108753             20.8               2955000         142366.5
+04:02:34.460 INFO  ProgressMeter -       chr16:89747181             20.9               2973000         142083.0
+04:02:45.820 INFO  ProgressMeter -        chr17:8093649             21.1               2985000         141377.3
+04:02:57.792 INFO  ProgressMeter -       chr17:29687430             21.3               3003000         140898.4
+04:03:09.002 INFO  ProgressMeter -       chr17:43371926             21.5               3016000         140278.5
+04:03:19.120 INFO  ProgressMeter -       chr17:52174072             21.7               3024000         139556.1
+04:03:29.305 INFO  ProgressMeter -       chr17:70732135             21.8               3043000         139341.3
+04:03:39.929 INFO  ProgressMeter -       chr17:80789008             22.0               3058000         138901.9
+04:03:50.054 INFO  ProgressMeter -       chr18:40383215             22.2               3083000         138972.3
+04:04:00.157 INFO  ProgressMeter -       chr18:60037084             22.4               3111000         139178.1
+04:04:10.429 INFO  ProgressMeter -         chr19:511911             22.5               3145000         139629.7
+04:04:21.027 INFO  ProgressMeter -        chr19:7092369             22.7               3155000         138983.7
+04:04:31.841 INFO  ProgressMeter -       chr19:14966965             22.9               3164000         138282.3
+04:04:42.257 INFO  ProgressMeter -       chr19:33483948             23.1               3182000         138021.9
+04:04:53.014 INFO  ProgressMeter -       chr19:42348328             23.2               3191000         137344.1
+04:04:53.791 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000588797.5 for variant: chr19:43847014-43847020(GGGAGAT* -> G): Cannot yet handle indels starting outside an exon and ending within an exon.
+04:05:03.074 INFO  ProgressMeter -       chr19:50432546             23.4               3200000         136744.6
+04:05:14.077 INFO  ProgressMeter -         chr20:226775             23.6               3213000         136232.6
+04:05:24.434 INFO  ProgressMeter -       chr20:18152591             23.8               3239000         136337.1
+04:05:34.642 INFO  ProgressMeter -       chr20:37625993             23.9               3254000         135994.6
+04:05:44.850 INFO  ProgressMeter -       chr20:55565512             24.1               3277000         135988.9
+04:05:55.060 INFO  ProgressMeter -       chr21:21131510             24.3               3302000         136065.5
+04:06:05.192 INFO  ProgressMeter -       chr21:39648397             24.4               3329000         136230.3
+04:06:15.339 INFO  ProgressMeter -       chr22:22348040             24.6               3343000         135862.8
+04:06:25.764 INFO  ProgressMeter -       chr22:37118186             24.8               3360000         135596.2
+04:06:35.866 INFO  Funcotator - No variants filtered by: AllowAllVariantsVariantFilter
+04:06:35.867 INFO  ProgressMeter -       chr22:49574267             24.9               3378413         135419.2
+04:06:35.867 INFO  ProgressMeter - Traversal complete. Processed 3378413 total variants in 24.9 minutes.
+04:06:36.496 INFO  Funcotator - Shutting down engine
+[December 5, 2019 4:06:36 AM UTC] org.broadinstitute.hellbender.tools.funcotator.Funcotator done. Elapsed time: 26.16 minutes.
+Runtime.totalMemory()=2128609280
+Tool returned:
+true
+Using GATK jar /gatk/gatk-package-4.0.10.1-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /gatk/gatk-package-4.0.10.1-local.jar Funcotator -R ref/hg38-plus.fa -V vcf/hapmap.vcf -O out/hapmap_benchmark.vcf --data-sources-path funcotator_dataSources.v1.4.20180829s --ref-version hg38 -output-file-format VCF
+04:06:47.279 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/gatk/gatk-package-4.0.10.1-local.jar!/com/intel/gkl/native/libgkl_compression.so
+04:06:49.165 INFO  Funcotator - ------------------------------------------------------------
+04:06:49.166 INFO  Funcotator - The Genome Analysis Toolkit (GATK) v4.0.10.1-0.0.4
+04:06:49.166 INFO  Funcotator - For support and documentation go to https://software.broadinstitute.org/gatk/
+04:06:49.166 INFO  Funcotator - Executing as root@c703611a1c2e on Linux v4.9.60-linuxkit-aufs amd64
+04:06:49.166 INFO  Funcotator - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_181-8u181-b13-0ubuntu0.16.04.1-b13
+04:06:49.166 INFO  Funcotator - Start Date/Time: December 5, 2019 4:06:47 AM UTC
+04:06:49.166 INFO  Funcotator - ------------------------------------------------------------
+04:06:49.166 INFO  Funcotator - ------------------------------------------------------------
+04:06:49.167 INFO  Funcotator - HTSJDK Version: 2.16.1
+04:06:49.167 INFO  Funcotator - Picard Version: 2.18.13
+04:06:49.167 INFO  Funcotator - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+04:06:49.167 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+04:06:49.167 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+04:06:49.167 INFO  Funcotator - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+04:06:49.167 INFO  Funcotator - Deflater: IntelDeflater
+04:06:49.167 INFO  Funcotator - Inflater: IntelInflater
+04:06:49.167 INFO  Funcotator - GCS max retries/reopens: 20
+04:06:49.167 INFO  Funcotator - Requester pays: disabled
+04:06:49.167 WARN  Funcotator - 
+
+[1m[31m   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+   Warning: Funcotator is a BETA tool and is not yet ready for use in production
+
+   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+
+
+04:06:49.167 INFO  Funcotator - Initializing engine
+04:07:10.911 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/vcf/hapmap.vcf
+04:07:11.055 INFO  Funcotator - Done initializing engine
+log4j:WARN No appenders could be found for logger (org.broadinstitute.hellbender.tools.funcotator.dataSources.DataSourceUtils).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+04:07:24.194 INFO  FeatureManager - Using codec GencodeGtfCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/gencode/hg38/gencode.v27.chr_patch_hapl_scaff.annotation.REORDERED.gtf
+04:07:40.632 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/lmm_known/hg38/LMM_Path_LP_VUS5-variants-6-12-18.sorted_liftover_b38.corrected.vcf
+04:07:40.694 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/lmm_known/hg38/LMM_Path_LP_VUS5-variants-6-12-18.sorted_liftover_b38.corrected.vcf
+04:07:42.824 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/clinvar/hg38/clinvar_20180429_hg38.vcf
+04:07:43.195 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/clinvar/hg38/clinvar_20180429_hg38.vcf
+04:07:59.645 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/exac/hg38/ExAC.r1.sites.liftover.b38.corrected.vcf.gz
+04:07:59.959 INFO  FeatureManager - Using codec VCFCodec to read file file:///funcotator/funcotator/funcotator_dataSources.v1.4.20180829s/exac/hg38/ExAC.r1.sites.liftover.b38.corrected.vcf.gz
+04:08:00.082 INFO  Funcotator - Creating a VCF file for output: file:/funcotator/funcotator/out/hapmap_benchmark.vcf
+04:08:00.172 INFO  ProgressMeter - Starting traversal
+04:08:00.173 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+04:08:10.221 INFO  ProgressMeter -         chr1:5695433              0.2                  7000          41799.4
+04:08:20.605 INFO  ProgressMeter -        chr1:15938927              0.3                 20000          58731.4
+04:08:30.773 INFO  ProgressMeter -        chr1:28613986              0.5                 36000          70588.2
+04:08:40.949 INFO  ProgressMeter -        chr1:42094251              0.7                 53000          77989.0
+04:08:51.115 INFO  ProgressMeter -        chr1:56330840              0.8                 68000          80092.7
+04:09:01.243 INFO  ProgressMeter -        chr1:77310377              1.0                 97000          95300.5
+04:09:11.442 INFO  ProgressMeter -        chr1:98967605              1.2                126000         106077.0
+04:09:21.494 INFO  ProgressMeter -       chr1:116507775              1.4                151000         111410.3
+04:09:32.509 INFO  ProgressMeter -       chr1:156815970              1.5                164000         106567.3
+04:09:42.946 INFO  ProgressMeter -       chr1:171769313              1.7                186000         108588.8
+04:09:52.995 INFO  ProgressMeter -       chr1:193618600              1.9                215000         114339.4
+04:10:03.320 INFO  ProgressMeter -       chr1:210522584              2.1                238000         115959.0
+04:10:14.052 INFO  ProgressMeter -       chr1:228525024              2.2                262000         117419.5
+04:10:24.305 INFO  ProgressMeter -       chr1:246804653              2.4                292000         121556.1
+04:10:34.344 INFO  ProgressMeter -        chr2:29982411              2.6                314000         122202.0
+04:10:44.417 INFO  ProgressMeter -        chr2:47298857              2.7                342000         124936.1
+04:10:54.561 INFO  ProgressMeter -        chr2:67496996              2.9                369000         126958.3
+04:11:04.627 INFO  ProgressMeter -        chr2:86153304              3.1                393000         127836.8
+04:11:14.761 INFO  ProgressMeter -       chr2:115621090              3.2                415000         127963.3
+04:11:24.772 INFO  ProgressMeter -       chr2:140828114              3.4                448000         131378.9
+04:11:35.055 INFO  ProgressMeter -       chr2:162820368              3.6                477000         133189.4
+04:11:47.101 INFO  ProgressMeter -       chr2:179199087              3.8                498000         131671.7
+04:11:57.370 INFO  ProgressMeter -       chr2:201347651              4.0                527000         133306.9
+04:12:08.666 INFO  ProgressMeter -       chr2:219131851              4.1                552000         133284.0
+04:12:18.672 INFO  ProgressMeter -       chr2:234404975              4.3                575000         133462.8
+04:12:28.720 INFO  ProgressMeter -         chr3:6942326              4.5                601000         134278.2
+04:12:39.075 INFO  ProgressMeter -        chr3:24342514              4.6                626000         134671.4
+04:12:49.381 INFO  ProgressMeter -        chr3:43869225              4.8                651000         135058.5
+04:12:59.458 INFO  ProgressMeter -        chr3:53171118              5.0                659000         132114.9
+04:13:09.793 INFO  ProgressMeter -        chr3:70138807              5.2                686000         132937.1
+04:13:20.268 INFO  ProgressMeter -       chr3:102088490              5.3                722000         135334.8
+04:13:30.721 INFO  ProgressMeter -       chr3:123463774              5.5                752000         136500.6
+04:13:40.894 INFO  ProgressMeter -       chr3:139675946              5.7                773000         136123.5
+04:13:51.253 INFO  ProgressMeter -       chr3:161139098              5.9                801000         136891.9
+04:14:02.695 INFO  ProgressMeter -       chr3:184802911              6.0                831000         137536.5
+04:14:12.911 INFO  ProgressMeter -        chr4:11168727              6.2                854000         137469.2
+04:14:23.145 INFO  ProgressMeter -        chr4:62521055              6.4                890000         139436.1
+04:14:33.399 INFO  ProgressMeter -        chr4:83020418              6.6                922000         140682.5
+04:14:43.605 INFO  ProgressMeter -       chr4:102682792              6.7                945000         140544.1
+04:14:53.805 INFO  ProgressMeter -       chr4:125330817              6.9                977000         141720.2
+04:15:03.859 INFO  ProgressMeter -       chr4:150576164              7.1               1013000         143455.3
+04:15:14.070 INFO  ProgressMeter -       chr4:171345461              7.2               1047000         144780.9
+04:15:24.241 INFO  ProgressMeter -          chr5:188632              7.4               1083000         146328.9
+04:15:34.366 INFO  ProgressMeter -        chr5:20421996              7.6               1118000         147690.5
+04:15:44.838 INFO  ProgressMeter -        chr5:41534384              7.7               1151000         148623.2
+04:15:54.977 INFO  ProgressMeter -        chr5:67767898              7.9               1181000         149240.5
+04:16:05.064 INFO  ProgressMeter -        chr5:91865561              8.1               1208000         149476.9
+04:16:15.250 INFO  ProgressMeter -       chr5:115635625              8.3               1239000         150158.5
+04:16:25.300 INFO  ProgressMeter -       chr5:136500815              8.4               1267000         150496.8
+04:16:35.637 INFO  ProgressMeter -       chr5:173203767              8.6               1294000         150621.6
+04:16:46.004 INFO  ProgressMeter -         chr6:7759159              8.8               1318000         150390.5
+04:16:56.299 INFO  ProgressMeter -        chr6:27867994              8.9               1349000         150972.0
+04:17:06.348 INFO  ProgressMeter -        chr6:33891736              9.1               1363000         149732.2
+04:17:16.781 INFO  ProgressMeter -        chr6:47043500              9.3               1379000         148650.4
+04:17:26.937 INFO  ProgressMeter -        chr6:66902308              9.4               1405000         148739.2
+04:17:37.056 INFO  ProgressMeter -        chr6:88674167              9.6               1438000         149562.4
+04:17:47.198 INFO  ProgressMeter -       chr6:112403253              9.8               1469000         150146.9
+04:17:57.310 INFO  ProgressMeter -       chr6:132621616             10.0               1498000         150518.2
+04:18:07.413 INFO  ProgressMeter -       chr6:153863400             10.1               1523000         150484.2
+04:18:17.950 INFO  ProgressMeter -         chr7:1112077             10.3               1552000         150734.2
+04:18:28.224 INFO  ProgressMeter -        chr7:18261813             10.5               1580000         150943.2
+04:18:38.539 INFO  ProgressMeter -        chr7:37885836             10.6               1607000         151041.9
+04:18:48.816 INFO  ProgressMeter -        chr7:56146682             10.8               1635000         151238.8
+04:18:59.012 INFO  ProgressMeter -        chr7:87485601             11.0               1663000         151448.5
+04:19:09.154 INFO  ProgressMeter -       chr7:101193099             11.1               1679000         150587.2
+04:19:19.372 INFO  ProgressMeter -       chr7:121159030             11.3               1702000         150353.6
+04:19:29.872 INFO  ProgressMeter -       chr7:140408853             11.5               1729000         150413.4
+04:19:40.053 INFO  ProgressMeter -       chr7:156345195             11.7               1751000         150111.4
+04:19:50.412 INFO  ProgressMeter -        chr8:23208487             11.8               1778000         150203.0
+04:20:00.653 INFO  ProgressMeter -        chr8:40366000             12.0               1801000         149983.3
+04:20:10.795 INFO  ProgressMeter -        chr8:65488105             12.2               1831000         150365.0
+04:20:21.122 INFO  ProgressMeter -        chr8:91110802             12.3               1860000         150617.7
+04:20:31.136 INFO  ProgressMeter -       chr8:111891696             12.5               1886000         150686.5
+04:20:41.237 INFO  ProgressMeter -       chr8:133773691             12.7               1917000         151130.5
+04:20:54.722 INFO  ProgressMeter -       chr8:143744501             12.9               1934000         149816.2
+04:21:05.041 INFO  ProgressMeter -         chr9:8628605             13.1               1952000         149222.5
+04:21:15.043 INFO  ProgressMeter -        chr9:22027177             13.2               1978000         149307.4
+04:21:25.311 INFO  ProgressMeter -        chr9:69186778             13.4               2004000         149340.9
+04:21:35.812 INFO  ProgressMeter -        chr9:89832692             13.6               2033000         149551.5
+04:21:46.049 INFO  ProgressMeter -       chr9:109896362             13.8               2058000         149514.0
+04:21:56.177 INFO  ProgressMeter -       chr9:125839482             13.9               2079000         149210.0
+04:22:06.772 INFO  ProgressMeter -       chr9:135643885             14.1               2093000         148334.9
+04:22:16.910 INFO  ProgressMeter -        chr10:7561946             14.3               2111000         147840.0
+04:22:26.939 INFO  ProgressMeter -       chr10:24648961             14.4               2137000         147929.2
+04:22:37.540 INFO  ProgressMeter -       chr10:50434017             14.6               2165000         148056.8
+04:22:47.585 INFO  ProgressMeter -       chr10:64866333             14.8               2189000         148003.6
+04:22:57.990 INFO  ProgressMeter -       chr10:78769445             15.0               2207000         147491.1
+04:23:08.563 INFO  ProgressMeter -       chr10:98585906             15.1               2233000         147491.7
+04:23:18.610 INFO  ProgressMeter -      chr10:115670573             15.3               2255000         147315.5
+04:23:28.611 INFO  ProgressMeter -      chr10:132132833             15.5               2283000         147538.1
+04:23:38.797 INFO  ProgressMeter -        chr11:1936786             15.6               2288000         146256.6
+04:23:48.842 INFO  ProgressMeter -       chr11:10987165             15.8               2305000         145783.2
+04:23:58.876 INFO  ProgressMeter -       chr11:25432247             16.0               2331000         145884.7
+04:24:09.175 INFO  ProgressMeter -       chr11:45256766             16.2               2361000         146191.6
+04:24:20.570 INFO  ProgressMeter -       chr11:62765044             16.3               2377000         145471.7
+04:24:31.201 INFO  ProgressMeter -       chr11:68906784             16.5               2383000         144274.4
+04:24:41.420 INFO  ProgressMeter -       chr11:83398330             16.7               2401000         143880.7
+04:24:51.454 INFO  ProgressMeter -      chr11:101656763             16.9               2428000         144054.9
+04:25:01.721 INFO  ProgressMeter -      chr11:117771661             17.0               2451000         143958.0
+04:25:11.866 INFO  ProgressMeter -      chr11:131055122             17.2               2470000         143647.4
+04:25:22.039 INFO  ProgressMeter -       chr12:18203651             17.4               2493000         143569.3
+04:25:32.146 INFO  ProgressMeter -       chr12:39639841             17.5               2521000         143787.0
+04:25:42.864 INFO  ProgressMeter -       chr12:52212337             17.7               2538000         143296.6
+04:25:52.920 INFO  ProgressMeter -       chr12:61722055             17.9               2550000         142624.5
+04:26:03.251 INFO  ProgressMeter -       chr12:82027585             18.1               2576000         142704.4
+04:26:13.643 INFO  ProgressMeter -      chr12:104000109             18.2               2605000         142939.4
+04:26:24.238 INFO  ProgressMeter -      chr12:120694656             18.4               2625000         142654.6
+04:26:34.316 INFO  ProgressMeter -       chr13:20520832             18.6               2648000         142602.9
+04:26:44.342 INFO  ProgressMeter -       chr13:37622826             18.7               2677000         142878.9
+04:26:54.499 INFO  ProgressMeter -       chr13:59057185             18.9               2708000         143239.2
+04:27:04.684 INFO  ProgressMeter -       chr13:83125063             19.1               2745000         143904.4
+04:27:14.705 INFO  ProgressMeter -      chr13:106574579             19.2               2782000         144578.1
+04:27:27.921 INFO  ProgressMeter -       chr14:24520275             19.5               2802000         143969.4
+04:27:38.041 INFO  ProgressMeter -       chr14:46295761             19.6               2834000         144362.5
+04:27:48.285 INFO  ProgressMeter -       chr14:63949375             19.8               2859000         144380.4
+04:27:58.816 INFO  ProgressMeter -       chr14:79731627             20.0               2878000         144062.9
+04:28:06.228 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000618863.1 for variant: chr14:94115784-94115793(TGGCCATGGC* -> T): Cannot yet handle indels starting outside an exon and ending within an exon.
+04:28:09.002 INFO  ProgressMeter -       chr14:99049943             20.1               2907000         144288.4
+04:28:19.580 INFO  ProgressMeter -       chr15:31047470             20.3               2926000         143971.6
+04:28:30.335 INFO  ProgressMeter -       chr15:45197624             20.5               2944000         143590.8
+04:28:40.352 INFO  ProgressMeter -       chr15:60521073             20.7               2966000         143495.5
+04:28:51.606 INFO  ProgressMeter -       chr15:76026889             20.9               2986000         143163.9
+04:28:52.935 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000446172.2 for variant: chr15:78266242-78266244(CAT* -> C): Cannot yet handle indels starting outside an exon and ending within an exon.
+04:29:01.880 INFO  ProgressMeter -       chr15:92158062             21.0               3006000         142949.2
+04:29:12.061 INFO  ProgressMeter -       chr16:54725005             21.2               3032000         143031.5
+04:29:23.223 INFO  ProgressMeter -       chr16:68350136             21.4               3049000         142582.1
+04:29:33.491 INFO  ProgressMeter -       chr16:80933304             21.6               3069000         142378.0
+04:29:44.554 INFO  ProgressMeter -       chr16:90033163             21.7               3089000         142090.4
+04:29:55.934 INFO  ProgressMeter -        chr17:7608442             21.9               3100000         141363.2
+04:30:06.201 INFO  ProgressMeter -       chr17:20065394             22.1               3116000         140992.5
+04:30:16.275 INFO  ProgressMeter -       chr17:40061046             22.3               3130000         140558.2
+04:30:27.531 INFO  ProgressMeter -       chr17:50739653             22.5               3140000         139829.2
+04:30:38.056 INFO  ProgressMeter -       chr17:68695119             22.6               3161000         139673.3
+04:30:48.492 INFO  ProgressMeter -       chr17:78847618             22.8               3177000         139309.6
+04:30:58.679 INFO  ProgressMeter -       chr18:33263656             23.0               3199000         139237.7
+04:31:08.838 INFO  ProgressMeter -       chr18:53047903             23.1               3225000         139342.5
+04:31:18.978 INFO  ProgressMeter -       chr18:71326922             23.3               3255000         139619.2
+04:31:29.785 INFO  ProgressMeter -        chr19:2748716             23.5               3276000         139442.6
+04:31:40.133 INFO  ProgressMeter -       chr19:10030709             23.7               3288000         138933.5
+04:31:50.628 INFO  ProgressMeter -       chr19:17438880             23.8               3297000         138291.7
+04:32:01.737 INFO  ProgressMeter -       chr19:36225904             24.0               3316000         138016.8
+04:32:09.879 ERROR GencodeFuncotationFactory - Unable to create a GencodeFuncotation on transcript ENST00000588797.5 for variant: chr19:43847014-43847020(GGGAGAT* -> G): Cannot yet handle indels starting outside an exon and ending within an exon.
+04:32:12.566 INFO  ProgressMeter -       chr19:45824970             24.2               3325000         137359.5
+04:32:22.815 INFO  ProgressMeter -       chr19:53148592             24.4               3336000         136848.3
+04:32:33.088 INFO  ProgressMeter -        chr20:2637902             24.5               3349000         136423.4
+04:32:43.322 INFO  ProgressMeter -       chr20:19641078             24.7               3376000         136574.3
+04:32:53.782 INFO  ProgressMeter -       chr20:42593401             24.9               3394000         136340.9
+04:33:04.155 INFO  ProgressMeter -       chr20:58580516             25.1               3416000         136278.2
+04:33:14.216 INFO  ProgressMeter -       chr21:24227432             25.2               3443000         136442.6
+04:33:24.501 INFO  ProgressMeter -       chr21:41444089             25.4               3469000         136545.4
+04:33:34.769 INFO  ProgressMeter -       chr22:22160400             25.6               3481000         136101.0
+04:33:45.082 INFO  ProgressMeter -       chr22:36728278             25.7               3499000         135891.5
+04:33:55.241 INFO  ProgressMeter -       chr22:48874733             25.9               3517000         135698.2
+04:34:05.838 INFO  ProgressMeter -        chrX:32913772             26.1               3543000         135776.2
+04:34:15.884 INFO  ProgressMeter -        chrX:89186444             26.3               3573000         136053.0
+04:34:26.085 INFO  ProgressMeter -       chrX:123761269             26.4               3601000         136237.1
+04:34:32.653 INFO  Funcotator - No variants filtered by: AllowAllVariantsVariantFilter
+04:34:32.654 INFO  ProgressMeter -       chrX:144126000             26.5               3619471         136371.1
+04:34:32.654 INFO  ProgressMeter - Traversal complete. Processed 3619471 total variants in 26.5 minutes.
+04:34:33.318 INFO  Funcotator - Shutting down engine
+[December 5, 2019 4:34:33 AM UTC] org.broadinstitute.hellbender.tools.funcotator.Funcotator done. Elapsed time: 27.77 minutes.
+Runtime.totalMemory()=2213543936
+Tool returned:
+true
+
+real	194m30.981s
+user	179m21.740s
+sys	10m14.920s
+]0;root@c703611a1c2e: /funcotator/funcotatorroot@c703611a1c2e:/funcotator/funcotator# 
