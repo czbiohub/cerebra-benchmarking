@@ -33,9 +33,9 @@ cwd = os.getcwd()
 cb_df = pd.read_csv(cerebra_bench_f, index_col=0)
 
 # driver loop 
-for funco in os.listdir('funco_bench_sub'): # outer loop -- by funco outfile (.vcf)
+for funco in os.listdir('funco_bench_ensp_tags_clean'): # outer loop -- by funco outfile (.vcf)
 	curr_sample = funco.split('_')[0] + '_' + funco.split('_')[1]
-	funco_path = cwd + '/funco_bench_sub/' + funco
+	funco_path = cwd + '/funco_bench_ensp_tags_clean/' + funco
 
 	funco_df = pd.read_csv(funco_path, header=None, names=['col'])
 	funco_ids = list(funco_df.col)
@@ -53,9 +53,8 @@ for funco in os.listdir('funco_bench_sub'): # outer loop -- by funco outfile (.v
 	print(curr_sample)
 	print('cerebra overlap: %f' % c_overlap)
 	print('funco overlap: %f' % f_overlap)
-	#print('inter: %d' % inter)
-	#print('cerebra_unique: %d' % cereb_u)
-	#print('funco_unique: %d' % funco_u)
+	print('cerebra total: %f' % len(set(cerebra_ids)))
+	print('funco total: %f' % len(set(funco_ids)))
 	print(' ')
 
 
