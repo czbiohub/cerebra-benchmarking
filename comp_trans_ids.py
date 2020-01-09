@@ -33,9 +33,9 @@ cwd = os.getcwd()
 cb_df = pd.read_csv(cerebra_bench_f, index_col=0)
 
 # driver loop 
-for funco in os.listdir('funco_bench_ensp_tags_clean'): # outer loop -- by funco outfile (.vcf)
+for funco in os.listdir('funco_bench_ensp_tags/final'): # outer loop -- by funco outfile (.vcf)
 	curr_sample = funco.split('_')[0] + '_' + funco.split('_')[1]
-	funco_path = cwd + '/funco_bench_ensp_tags_clean/' + funco
+	funco_path = cwd + '/funco_bench_ensp_tags/final/' + funco
 
 	funco_df = pd.read_csv(funco_path, header=None, names=['col'])
 	funco_ids = list(funco_df.col)
